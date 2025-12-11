@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762405847160",
+    "project_id": "tehnico-aa067",
+    "storage_bucket": "tehnico-aa067.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762405847160:android:9cdb1490b1d69453abad8d",
+        "android_client_info": {
+          "package_name": "md.tehnico.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762405847160-msnjgj7brubpd4d9t44buplmlkj5ahqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0zIpW8URxaaKBMkVC7TwAIZeL7T5OD1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762405847160-msnjgj7brubpd4d9t44buplmlkj5ahqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
