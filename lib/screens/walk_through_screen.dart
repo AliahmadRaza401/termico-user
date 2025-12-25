@@ -1,6 +1,5 @@
-import 'package:booking_system_flutter/screens/dashboard/dashboard_screen.dart';
+import 'package:booking_system_flutter/screens/language_screen.dart';
 import 'package:booking_system_flutter/utils/colors.dart';
-import 'package:booking_system_flutter/utils/constant.dart';
 import 'package:booking_system_flutter/utils/images.dart';
 import 'package:flutter/material.dart';
 import 'package:nb_utils/nb_utils.dart';
@@ -102,8 +101,7 @@ class _WalkThroughScreenState extends State<WalkThroughScreen> {
                 TextButton(
                   style: ButtonStyle(padding: WidgetStateProperty.all(EdgeInsets.zero)),
                   onPressed: () async {
-                    await setValue(IS_FIRST_TIME, false);
-                    DashboardScreen().launch(context, isNewTask: true, pageRouteAnimation: PageRouteAnimation.Fade);
+                    LanguagesScreen(isFromWalkthrough: true).launch(context, isNewTask: true, pageRouteAnimation: PageRouteAnimation.Fade);
                   },
                   child: Text(language.lblSkip, style: boldTextStyle(color: primaryColor)),
                 ),
@@ -120,8 +118,7 @@ class _WalkThroughScreenState extends State<WalkThroughScreen> {
                   style: ButtonStyle(padding: WidgetStateProperty.all(EdgeInsets.zero)),
                   onPressed: () async {
                     if (currentPosition == pages.length) {
-                      await setValue(IS_FIRST_TIME, false);
-                      DashboardScreen().launch(context, isNewTask: true, pageRouteAnimation: PageRouteAnimation.Fade);
+                      LanguagesScreen(isFromWalkthrough: true).launch(context, isNewTask: true, pageRouteAnimation: PageRouteAnimation.Fade);
                     } else {
                       pageController.nextPage(duration: 500.milliseconds, curve: Curves.linearToEaseOut);
                     }

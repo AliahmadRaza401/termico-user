@@ -199,6 +199,60 @@ class _CreatePostRequestScreenState extends State<CreatePostRequestScreen> {
     });
   }
 
+  Future<void> getImageFromCamera() async {
+    await picker.pickImage(source: ImageSource.camera).then((value) {
+      if (value != null) {
+        imageFiles.add(value);
+        setState(() {});
+      }
+    });
+  }
+
+  void _showImageSourceBottomSheet() {
+    showModalBottomSheet<void>(
+      backgroundColor: context.cardColor,
+      context: context,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+      ),
+      builder: (BuildContext context) {
+        return Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Container(
+              margin: EdgeInsets.only(top: 8, bottom: 8),
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: context.dividerColor,
+                borderRadius: BorderRadius.circular(2),
+              ),
+            ).center(),
+            SettingItemWidget(
+              title: language.lblGallery,
+              leading: Icon(Icons.image, color: primaryColor),
+              onTap: () {
+                finish(context);
+                getMultipleFile();
+              },
+            ),
+            Divider(color: context.dividerColor, height: 1),
+            SettingItemWidget(
+              title: language.camera,
+              leading: Icon(Icons.camera_alt, color: primaryColor),
+              onTap: () {
+                finish(context);
+                getImageFromCamera();
+              },
+            ),
+            16.height,
+          ],
+        ).paddingAll(16.0);
+      },
+    );
+  }
+
   Future<ServiceData?> createNewService() async {
     log('createNewService: Starting service creation');
     
@@ -542,7 +596,7 @@ class _CreatePostRequestScreenState extends State<CreatePostRequestScreen> {
                                   Text(language.chooseImages, style: boldTextStyle()),
                                 ],
                               ).center().onTap(borderRadius: radius(), () async {
-                                getMultipleFile();
+                                _showImageSourceBottomSheet();
                               }),
                             ),
                           ),
