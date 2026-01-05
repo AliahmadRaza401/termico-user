@@ -33,7 +33,7 @@ Future<void> setAppConfigurations(AppConfigurationModel data) async {
 
   await appConfigurationStore.setCurrencyCode(data.currencyCode.validate());
   await appConfigurationStore.setCurrencyPosition(data.currencyPosition.validate());
-  await appConfigurationStore.setCurrencySymbol(data.currencySymbol.validate());
+  await appConfigurationStore.setCurrencySymbol(data.currencyCode.validate());
   await appConfigurationStore.setPriceDecimalPoint(data.decimalPoint.toInt());
 
   await appConfigurationStore.setAdvancePaymentAllowed(data.advancePaymentStatus.validate().getBoolInt());
