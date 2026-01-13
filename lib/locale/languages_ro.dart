@@ -3,1425 +3,1383 @@ import 'package:booking_system_flutter/utils/configs.dart';
 
 class LanguageRo extends BaseLanguage {
   @override
-  String get walkTitle1 => 'Create and Set Up Your Account';
+  String get walkTitle1 => 'Creează și configurează contul tău';
 
   @override
-  String get walkTitle2 => 'Browse and Book Services';
+  String get walkTitle2 => 'Caută și rezervă servicii';
 
   @override
-  String get walkTitle3 => 'Track and Manage Your Bookings';
+  String get walkTitle3 => 'Urmărește și gestionează rezervările';
 
   @override
-  String get getStarted => 'Get Started';
+  String get getStarted => 'Începe';
 
   @override
-  String get signIn => 'Sign In';
+  String get signIn => 'Autentificare';
 
   @override
-  String get signUp => 'Sign Up';
+  String get signUp => 'Înregistrare';
 
   @override
-  String get hintFirstNameTxt => 'First Name';
+  String get hintFirstNameTxt => 'Prenume';
 
   @override
-  String get hintLastNameTxt => 'Last Name';
+  String get hintLastNameTxt => 'Nume';
 
   @override
-  String get hintContactNumberTxt => 'Contact Number';
+  String get hintContactNumberTxt => 'Număr de contact';
 
   @override
-  String get hintEmailAddressTxt => 'Enter your email address';
+  String get hintEmailAddressTxt => 'Introdu adresa de email';
 
   @override
-  String get hintUserNameTxt => 'User Name';
+  String get hintUserNameTxt => 'Nume utilizator';
 
   @override
-  String get hintPasswordTxt => 'Password';
+  String get hintPasswordTxt => 'Parolă';
 
   @override
-  String get hintReenterPasswordTxt => 'Re-enter Password';
+  String get hintReenterPasswordTxt => 'Reintrodu parola';
 
   @override
-  String get confirm => 'Confirm';
+  String get confirm => 'Confirmă';
 
   @override
-  String get hintEmailTxt => 'Email Address';
+  String get hintEmailTxt => 'Adresă de email';
 
   @override
-  String get forgotPassword => 'Forgot password?';
+  String get forgotPassword => 'Ai uitat parola?';
 
   @override
-  String get alreadyHaveAccountTxt => 'Already have an Account?';
+  String get alreadyHaveAccountTxt => 'Ai deja un cont?';
 
   @override
-  String get rememberMe => 'Remember Me';
+  String get rememberMe => 'Ține-mă minte';
 
   @override
-  String get resetPassword => 'Reset Password';
+  String get resetPassword => 'Resetează parola';
 
   @override
-  String get dashboard => 'Dashboard';
+  String get dashboard => 'Panou de control';
 
   @override
-  String get editProfile => 'Edit Profile';
+  String get editProfile => 'Editează profilul';
 
   @override
-  String get camera => 'Camera';
+  String get camera => 'Cameră';
 
   @override
-  String get language => 'App Language';
+  String get language => 'Limba aplicației';
 
   @override
-  String get appTheme => 'App Theme';
+  String get appTheme => 'Tema aplicației';
 
   @override
-  String get bookingHistory => 'Booking History';
+  String get bookingHistory => 'Istoric rezervări';
 
   @override
-  String get rateUs => 'Rate Us';
+  String get rateUs => 'Evaluează-ne';
 
   @override
-  String get termsCondition => 'Terms & Conditions';
+  String get termsCondition => 'Termeni și condiții';
 
   @override
-  String get helpSupport => 'Help & Support';
+  String get helpSupport => 'Ajutor și suport';
 
   @override
-  String get privacyPolicy => 'Privacy Policy';
+  String get privacyPolicy => 'Politica de confidențialitate';
 
   @override
-  String get about => 'About';
+  String get about => 'Despre';
 
   @override
-  String get logout => 'Logout';
+  String get logout => 'Deconectare';
 
   @override
-  String get chooseTheme => 'Choose the App Theme';
+  String get chooseTheme => 'Alege tema aplicației';
 
   @override
-  String get selectCountry => 'Select Country';
+  String get selectCountry => 'Selectează țara';
 
   @override
-  String get selectState => 'Select State';
+  String get selectState => 'Selectează regiunea';
 
   @override
-  String get selectCity => 'Select City';
+  String get selectCity => 'Selectează orașul';
 
   @override
-  String get changePassword => 'Change Password';
+  String get changePassword => 'Schimbă parola';
 
   @override
-  String get passwordNotMatch => "Password does not match";
+  String get passwordNotMatch => 'Parolele nu coincid';
 
   @override
-  String get doNotHaveAccount => "Don't have an account?";
+  String get doNotHaveAccount => 'Nu ai un cont?';
 
   @override
-  String get hintNewPasswordTxt => "New Password";
+  String get hintNewPasswordTxt => 'Parolă nouă';
 
   @override
-  String get hintOldPasswordTxt => "Old Password";
+  String get hintOldPasswordTxt => 'Parolă veche';
 
   @override
-  String get hintAddress => 'Address';
+  String get hintAddress => 'Adresă';
 
   @override
-  String get lblGallery => "Gallery";
+  String get lblGallery => 'Galerie';
 
   @override
-  String get yourReview => "Your Review";
+  String get yourReview => 'Recenzia ta';
 
   @override
-  String get review => "Reviews";
+  String get review => 'Recenzii';
 
   @override
-  String get hintDescription => "Description";
+  String get hintDescription => 'Descriere';
 
   @override
-  String get lblApply => "Apply";
+  String get lblApply => 'Aplică';
 
   @override
-  String get bookTheService => "Book Service";
+  String get bookTheService => 'Rezervă serviciul';
 
   @override
-  String get contactAdmin => "Please contact with Admin";
+  String get contactAdmin => 'Te rugăm să contactezi administratorul';
 
   @override
-  String get allServices => 'All Services';
+  String get allServices => 'Toate serviciile';
 
   @override
-  String get duration => 'Duration';
+  String get duration => 'Durată';
 
   @override
-  String get hourly => "hourly";
+  String get hourly => 'pe oră';
 
   @override
-  String get payment => "Payment";
+  String get payment => 'Plată';
 
   @override
-  String get done => "Done";
+  String get done => 'Finalizat';
 
   @override
-  String get totalAmount => 'Total Amount';
+  String get totalAmount => 'Sumă totală';
 
   @override
-  String get applyCoupon => 'Apply Coupon';
+  String get applyCoupon => 'Aplică cupon';
 
   @override
-  String get priceDetail => 'Price Detail';
+  String get priceDetail => 'Detalii preț';
 
   @override
-  String get home => 'Home';
+  String get home => 'Acasă';
 
   @override
-  String get category => 'Categories';
+  String get category => 'Categorii';
 
   @override
-  String get booking => 'Bookings';
+  String get booking => 'Rezervări';
 
   @override
-  String get profile => 'Profile';
+  String get profile => 'Profil';
 
   @override
-  String get lblAlertBooking => 'Do you want to book the service?';
+  String get lblAlertBooking => 'Vrei să rezervi serviciul?';
 
   @override
-  String get serviceName => 'Service Name';
+  String get serviceName => 'Nume serviciu';
 
   @override
-  String get service => 'Services';
+  String get service => 'Servicii';
 
   @override
-  String get lblCancelReason => 'Please give reason for canceling this Booking';
+  String get lblCancelReason =>
+      'Te rugăm să indici motivul anulării acestei rezervări';
 
   @override
-  String get enterReason => "Specify your reason here";
+  String get enterReason => 'Specifică motivul aici';
 
   @override
-  String get noDataAvailable => 'No Data Available';
+  String get noDataAvailable => 'Nu există date disponibile';
 
   @override
-  String get lblOk => 'Ok';
+  String get lblOk => 'OK';
 
   @override
-  String get paymentDetail => 'Payment Detail';
+  String get paymentDetail => 'Detalii plată';
 
   @override
-  String get paymentStatus => 'Payment Status';
+  String get paymentStatus => 'Status plată';
 
   @override
-  String get viewDetail => 'View Detail';
+  String get viewDetail => 'Vezi detalii';
 
   @override
-  String get appThemeLight => 'Light';
+  String get appThemeLight => 'Luminos';
 
   @override
-  String get appThemeDark => 'Dark';
+  String get appThemeDark => 'Întunecat';
 
   @override
-  String get appThemeDefault => 'System default';
+  String get appThemeDefault => 'Implicit sistem';
 
   @override
-  String get markAsRead => "Mark all as Read";
+  String get markAsRead => 'Marchează toate ca citite';
 
   @override
-  String get lblYes => 'Yes';
+  String get lblYes => 'Da';
 
   @override
-  String get lblNo => 'No';
+  String get lblNo => 'Nu';
 
   @override
-  String get btnRate => "Rate Now ";
+  String get btnRate => 'Evaluează acum';
 
   @override
-  String get btnSubmit => "Submit";
+  String get btnSubmit => 'Trimite';
 
   @override
   String get walkThrough1 =>
-      'Sign up or log in to your account using your email or social media profiles. Completing your profile ensures a seamless booking experience.';
+      'Înregistrează-te sau autentifică-te folosind emailul sau rețelele sociale. Completarea profilului asigură o experiență de rezervare fără probleme.';
 
   @override
   String get walkThrough2 =>
-      'Explore a wide range of services available in your area. Select a service, choose a convenient time slot, and provide your location details to book a service quickly and easily.';
+      'Explorează o gamă largă de servicii disponibile în zona ta. Alege un serviciu, selectează un interval orar convenabil și introdu locația pentru a rezerva rapid.';
 
   @override
   String get walkThrough3 =>
-      'Keep track of your service status in real-time. View and manage your current and past bookings. Reschedule or cancel upcoming services effortlessly.';
+      'Urmărește în timp real statusul serviciilor tale. Gestionează rezervările curente și anterioare. Reprogramează sau anulează cu ușurință.';
 
   @override
-  String get lblNotification => "Notifications";
+  String get lblNotification => 'Notificări';
 
   @override
-  String get lblUnAuthorized => "Demo user cannot be granted for this action";
+  String get lblUnAuthorized =>
+      'Utilizatorul demo nu are permisiunea pentru această acțiune';
 
   @override
-  String get btnNext => "Next";
+  String get btnNext => 'Următorul';
 
   @override
-  String get lblViewAll => "View All";
+  String get lblViewAll => 'Vezi toate';
 
   @override
-  String get notAvailable => "Not Available";
+  String get notAvailable => 'Indisponibil';
 
   @override
-  String get lblFavorite => "Favourite Services";
+  String get lblFavorite => 'Servicii favorite';
 
   @override
-  String get lblChat => "Chat";
+  String get lblChat => 'Chat';
 
   @override
-  String get getLocation => "Set";
+  String get getLocation => 'Setează';
 
   @override
-  String get setAddress => "Set Address";
+  String get setAddress => 'Setează adresa';
 
   @override
-  String get requiredText => "This field is required";
+  String get requiredText => 'Acest câmp este obligatoriu';
 
   @override
-  String get phnRequiredText => "Please enter mobile number";
+  String get phnRequiredText => 'Te rugăm să introduci numărul de telefon';
 
   @override
-  String get lblCall => "Call";
+  String get lblCall => 'Apelează';
 
   @override
-  String get lblRateHandyman => "Rate Handyman";
+  String get lblRateHandyman => 'Evaluează meșterul';
 
   @override
   String get msgForLocationOn =>
-      'Your Location is turned on. Continue viewing services available from ALL areas?';
+      'Locația ta este activată. Vrei să vezi servicii din toate zonele?';
 
   @override
   String get msgForLocationOff =>
-      'Your Location is turned off. Discover and find services available to your selected area.';
+      'Locația ta este dezactivată. Descoperă servicii din zona selectată.';
 
   @override
-  String get lblEnterPhnNumber => "Enter your phone number";
+  String get lblEnterPhnNumber => 'Introdu numărul de telefon';
 
   @override
-  String get btnSendOtp => "Send OTP";
+  String get btnSendOtp => 'Trimite OTP';
 
   @override
-  String get lblLocationOff => "All services available";
+  String get lblLocationOff => 'Toate serviciile disponibile';
 
   @override
-  String get lblAppSetting => "App Setting";
+  String get lblAppSetting => 'Setări aplicație';
 
   @override
-  String get lblSubTotal => "Subtotal";
+  String get lblSubTotal => 'Subtotal';
 
   @override
-  String get lblImage => "Image";
+  String get lblImage => 'Imagine';
 
   @override
-  String get lblVideo => "Video";
+  String get lblVideo => 'Video';
 
   @override
-  String get lblAudio => "Audio";
+  String get lblAudio => 'Audio';
 
   @override
   String get lblChangePwdTitle =>
-      "Your new password must be different from previous used password";
+      'Noua parolă trebuie să fie diferită de cea anterioară';
 
   @override
   String get lblForgotPwdSubtitle =>
-      "A reset password link will be sent to the above entered email address";
+      'Un link de resetare va fi trimis pe emailul introdus';
 
   @override
-  String get lblLoginTitle => "Hello Again";
+  String get lblLoginTitle => 'Salut din nou';
 
   @override
   String get lblLoginSubTitle =>
-      "Welcome Back, You Have Been Missed For A Long Time";
+      'Bine ai revenit, ne-ai lipsit de mult timp';
 
   @override
-  String get lblOrContinueWith => "Or Continue With";
+  String get lblOrContinueWith => 'Sau continuă cu';
 
   @override
-  String get lblHelloUser => "Hello User !";
+  String get lblHelloUser => 'Salut utilizator!';
 
   @override
-  String get lblSignUpSubTitle => "Create Your Account for Better Experience";
+  String get lblSignUpSubTitle =>
+      'Creează-ți contul pentru o experiență mai bună';
 
   @override
-  String get lblStepper1Title => "Enter Detail Information";
+  String get lblStepper1Title => 'Introdu informațiile';
 
   @override
-  String get lblDateAndTime => "Date And Time:";
+  String get lblDateAndTime => 'Data și ora:';
 
   @override
-  String get chooseDateAndTime => "Choose Date And Time";
+  String get chooseDateAndTime => 'Alege data și ora';
 
   @override
-  String get lblYourAddress => "Your Address";
+  String get lblYourAddress => 'Adresa ta';
 
   @override
-  String get lblEnterYourAddress => "Enter your address";
+  String get lblEnterYourAddress => 'Introdu adresa';
 
   @override
-  String get lblUseCurrentLocation => "Use Current Location";
+  String get lblUseCurrentLocation => 'Folosește locația curentă';
 
   @override
-  String get lblEnterDescription => "Enter Description";
+  String get lblEnterDescription => 'Introdu descrierea';
 
   @override
-  String get lblPrice => "Price";
+  String get lblPrice => 'Preț';
 
   @override
-  String get lblTax => "Tax";
+  String get lblTax => 'Taxă';
 
   @override
-  String get lblDiscount => "Discount";
+  String get lblDiscount => 'Reducere';
 
   @override
-  String get lblAvailableCoupons => "Available Coupons";
+  String get lblAvailableCoupons => 'Cupoane disponibile';
 
   @override
-  String get lblPrevious => "Previous";
+  String get lblPrevious => 'Anterior';
 
   @override
-  String get lblCoupon => "Coupon";
+  String get lblCoupon => 'Cupon';
 
   @override
-  String get lblEditYourReview => "Edit Your Review";
+  String get lblEditYourReview => 'Editează recenzia';
 
   @override
-  String get lblTime => "Time";
+  String get lblTime => 'Ora';
 
   @override
-  String get textProvider => "Provider";
+  String get textProvider => 'Furnizor';
 
   @override
-  String get lblConfirmBooking => "Confirm Booking";
+  String get lblConfirmBooking => 'Confirmă rezervarea';
 
   @override
-  String get lblConfirmMsg => 'Do you want to confirm this booking?';
+  String get lblConfirmMsg => 'Vrei să confirmi această rezervare?';
 
   @override
-  String get lblCancel => "Cancel";
+  String get lblCancel => 'Anulează';
 
   @override
-  String get lblExpiryDate => "Expiry Date :";
+  String get lblExpiryDate => 'Data expirării:';
 
   @override
-  String get lblRemoveCoupon => "Remove Coupon";
+  String get lblRemoveCoupon => 'Elimină cuponul';
 
   @override
-  String get lblNoCouponsAvailable => "No Coupons available";
+  String get lblNoCouponsAvailable => 'Nu sunt cupoane disponibile';
 
   @override
-  String get lblStep1 => "Step 1";
+  String get lblStep1 => 'Pasul 1';
 
   @override
-  String get lblStep2 => "Step 2";
+  String get lblStep2 => 'Pasul 2';
 
   @override
-  String get lblBookingID => "Booking ID";
+  String get lblBookingID => 'ID Rezervare';
 
   @override
-  String get lblDate => "Date";
+  String get lblDate => 'Data';
 
   @override
-  String get lblAboutHandyman => "About Handyman";
+  String get lblAboutHandyman => 'Despre meșter';
 
   @override
-  String get lblAboutProvider => "About Provider";
+  String get lblAboutProvider => 'Despre furnizor';
 
   @override
-  String get lblNotRatedYet => "You haven't rated yet";
+  String get lblNotRatedYet => 'Nu ai evaluat încă';
 
   @override
-  String get lblDeleteReview => "Delete Review";
+  String get lblDeleteReview => 'Șterge recenzia';
 
   @override
-  String get lblConfirmReviewSubTitle => "Do you want to delete this review?";
+  String get lblConfirmReviewSubTitle => 'Vrei să ștergi această recenzie?';
 
   @override
-  String get lblConfirmService => "Do you want to hold this service?";
+  String get lblConfirmService => 'Vrei să pui pe pauză acest serviciu?';
 
   @override
-  String get lblConFirmResumeService => "Do you want to Resume this service?";
+  String get lblConFirmResumeService => 'Vrei să continui acest serviciu?';
 
   @override
-  String get lblEndServicesMsg => "Do you want to end this service?";
+  String get lblEndServicesMsg => 'Vrei să închei acest serviciu?';
 
   @override
-  String get lblCancelBooking => "Cancel Booking";
+  String get lblCancelBooking => 'Anulează rezervarea';
 
   @override
-  String get lblStart => "Start";
+  String get lblStart => 'Începe';
 
   @override
-  String get lblHold => "Hold";
+  String get lblHold => 'Pauză';
 
   @override
-  String get lblResume => "Resume";
+  String get lblResume => 'Continuă';
 
   @override
-  String get lblPayNow => "Pay Now";
+  String get lblPayNow => 'Plătește acum';
 
   @override
-  String get lblCheckStatus => "Check Status";
+  String get lblCheckStatus => 'Verifică statusul';
 
   @override
-  String get lblID => "ID";
+  String get lblID => 'ID';
 
   @override
-  String get lblNoBookingsFound => "No Bookings Found";
+  String get lblNoBookingsFound => 'Nu s-au găsit rezervări';
 
   @override
-  String get lblCategory => "Category";
+  String get lblCategory => 'Categorie';
 
   @override
-  String get lblYourComment => "Your Comment";
+  String get lblYourComment => 'Comentariul tău';
 
   @override
-  String get lblIntroducingCustomerRating => "Introducing Customer Rating";
+  String get lblIntroducingCustomerRating => 'Introducerea evaluării clienților';
 
   @override
-  String get lblSeeYourRatings => "See Your Ratings";
+  String get lblSeeYourRatings => 'Vezi evaluările tale';
 
   @override
-  String get lblFeatured => "Featured";
+  String get lblFeatured => 'Recomandat';
 
   @override
-  String get lblNoServicesFound =>
-      "Currently, there are no data available in this zone";
+  String get lblNoServicesFound => 'Momentan, nu există date disponibile în această zonă';
 
   @override
-  String get lblGENERAL => "GENERAL";
+  String get lblGENERAL => 'GENERAL';
 
   @override
-  String get lblAboutApp => "About App";
+  String get lblAboutApp => 'Despre aplicație';
 
   @override
-  String get lblPurchaseCode => "Purchase Full Source Code";
+  String get lblPurchaseCode => 'Cumpără codul sursă complet';
 
   @override
-  String get lblNoRateYet => "Currently you have not rated any services";
+  String get lblNoRateYet => 'Momentan nu ai evaluat niciun serviciu';
 
   @override
-  String get lblMemberSince => "Member Since";
+  String get lblMemberSince => 'Membru din';
 
   @override
-  String get lblFilterBy => "Filter By";
+  String get lblFilterBy => 'Filtrează după';
 
   @override
-  String get lblClearFilter => "Clear Filter";
+  String get lblClearFilter => 'Șterge filtrul';
 
   @override
-  String get lblNoReviews => "No Reviews";
+  String get lblNoReviews => 'Fără recenzii';
 
   @override
-  String get lblUnreadNotification => "Unread Notification";
+  String get lblUnreadNotification => 'Notificare necitită';
 
   @override
-  String get lblChoosePaymentMethod => "Choose Payment Method";
+  String get lblChoosePaymentMethod => 'Alege metoda de plată';
 
   @override
-  String get lblNoPayments => "No Payments";
+  String get lblNoPayments => 'Fără plăți';
 
   @override
-  String get lblPayWith => "Do you want to pay with";
+  String get lblPayWith => 'Vrei să plătești cu';
 
   @override
-  String get payWith => "Pay with";
+  String get payWith => 'Plătește cu';
 
   @override
-  String get lblYourRating => "Your Rating";
+  String get lblYourRating => 'Evaluarea ta';
 
   @override
-  String get lblEnterReview => "Enter Your Review (Optional)";
+  String get lblEnterReview => 'Introdu recenzia ta (Opțional)';
 
   @override
-  String get lblDelete => "Delete";
+  String get lblDelete => 'Șterge';
 
   @override
-  String get lblDeleteRatingMsg => "Do you want to delete this Rating?";
+  String get lblDeleteRatingMsg => 'Vrei să ștergi această evaluare?';
 
   @override
-  String get lblSelectRating => "Rating is required";
+  String get lblSelectRating => 'Evaluarea este obligatorie';
 
   @override
-  String get lblNoServiceRatings => "No service Ratings";
+  String get lblNoServiceRatings => 'Fără evaluări de servicii';
 
   @override
-  String get lblSearchFor => "Search for";
+  String get lblSearchFor => 'Caută';
 
   @override
-  String get lblRating => "Rating";
+  String get lblRating => 'Evaluare';
 
   @override
-  String get lblAvailableAt => "Available Locations";
+  String get lblAvailableAt => 'Locații disponibile';
 
   @override
-  String get lblRelatedServices => "Related Services";
+  String get lblRelatedServices => 'Servicii conexe';
 
   @override
-  String get lblBookNow => "Book Now";
+  String get lblBookNow => 'Rezervă acum';
 
   @override
-  String get lblWelcomeToHandyman => "Welcome To $APP_NAME";
+  String get lblWelcomeToHandyman => 'Bun venit la $APP_NAME';
 
   @override
-  String get lblWalkThroughSubTitle =>
-      "$APP_NAME - On-Demand Home Services App with Complete Solution";
+  String get lblWalkThroughSubTitle => '$APP_NAME - Aplicație de servicii la domiciliu la cerere cu soluție completă';
 
   @override
-  String get textHandyman => "Handyman";
+  String get textHandyman => 'Meșter';
 
   @override
-  String get lblChooseFromMap => "Choose From Map";
+  String get lblChooseFromMap => 'Alege de pe hartă';
 
   @override
-  String get lblDeleteAddress => "Delete Address";
+  String get lblDeleteAddress => 'Șterge adresa';
 
   @override
-  String get lblDeleteSunTitle => "Do you want to delete this address?";
+  String get lblDeleteSunTitle => 'Vrei să ștergi această adresă?';
 
   @override
-  String get lblFaq => "FAQs";
+  String get lblFaq => 'Întrebări frecvente';
 
   @override
-  String get lblServiceFaq => "Service FAQs";
+  String get lblServiceFaq => 'Întrebări frecvente despre servicii';
 
   @override
-  String get lblLogoutTitle => "Oh No, You Are Leaving!";
+  String get lblLogoutTitle => 'Oh nu, pleci!';
 
   @override
-  String get lblLogoutSubTitle => "Do you want to logout?";
+  String get lblLogoutSubTitle => 'Vrei să te deconectezi?';
 
   @override
-  String get lblFeaturedProduct => "This is Featured Product";
+  String get lblFeaturedProduct => 'Acesta este un produs recomandat';
 
   @override
-  String get lblAlert => "Alert";
+  String get lblAlert => 'Alertă';
 
   @override
-  String get lblOnBase => "On basis of";
+  String get lblOnBase => 'Pe baza';
 
   @override
-  String get lblInvalidCoupon => "Coupon code is invalid";
+  String get lblInvalidCoupon => 'Codul cuponului este invalid';
 
   @override
-  String get lblSelectCode => "Please Select Coupon code";
+  String get lblSelectCode => 'Te rugăm să selectezi codul cuponului';
 
   @override
-  String get lblBackPressMsg => "Press back again to exit app";
+  String get lblBackPressMsg => 'Apasă din nou pentru a ieși din aplicație';
 
   @override
-  String get lblHour => "hour";
+  String get lblHour => 'oră';
 
   @override
-  String get lblHelplineNumber => "Helpline Number";
+  String get lblHelplineNumber => 'Număr linie de ajutor';
 
   @override
-  String get lblSubcategories => "Subcategories";
+  String get lblSubcategories => 'Subcategorii';
 
   @override
-  String get lblAgree => "I agree to the";
+  String get lblAgree => 'Sunt de acord cu';
 
   @override
-  String get lblTermsOfService => "Terms of Service";
+  String get lblTermsOfService => 'Termenii serviciului';
 
   @override
-  String get lblWalkThrough0 =>
-      "$APP_NAME - $APP_NAME_TAG_LINE with Complete Solution";
+  String get lblWalkThrough0 => '$APP_NAME - $APP_NAME_TAG_LINE cu soluție completă';
 
   @override
-  String get lblServiceTotalTime => "Service Total Time";
+  String get lblServiceTotalTime => 'Timpul total al serviciului';
 
   @override
-  String get lblDateTimeUpdated =>
-      "Your booking Date & Time has been completed successfully";
+  String get lblDateTimeUpdated => 'Data și ora rezervării tale au fost actualizate cu succes';
 
   @override
-  String get lblSelectDate => "Please select Date Time";
+  String get lblSelectDate => 'Te rugăm să selectezi data și ora';
 
   @override
-  String get lblReasonCancelling => "Reason:";
+  String get lblReasonCancelling => 'Motiv:';
 
   @override
-  String get lblReasonRejecting => "Reason for rejecting this booking";
+  String get lblReasonRejecting => 'Motiv pentru respingerea acestei rezervări';
 
   @override
-  String get lblFailed => "Reason why this booking is failed";
+  String get lblFailed => 'Motivul pentru care această rezervare a eșuat';
 
   @override
-  String get lblNotDescription => "No Description Available";
+  String get lblNotDescription => 'Fără descriere disponibilă';
 
   @override
-  String get lblMaterialTheme => "Enable Material You Theme";
+  String get lblMaterialTheme => 'Activează tema Material You';
 
   @override
-  String get lblServiceProof => "Service Proof";
+  String get lblServiceProof => 'Dovadă serviciu';
 
   @override
-  String get lblAndroid12Support =>
-      "This action will restart your app. Confirm?";
+  String get lblAndroid12Support => 'Această acțiune va reporni aplicația ta. Confirmi?';
 
   @override
-  String get lblOff => "Off";
+  String get lblOff => 'Oprit';
 
   @override
-  String get lblHr => "hr";
+  String get lblHr => 'ore';
 
   @override
-  String get lblSignInWithGoogle => "Sign In With Google";
+  String get lblSignInWithGoogle => 'Autentificare cu Google';
 
   @override
-  String get lblSignInWithOTP => "Sign In With OTP";
+  String get lblSignInWithOTP => 'Autentificare cu OTP';
 
   @override
-  String get lblDangerZone => "Danger Zone";
+  String get lblDangerZone => 'Zonă periculoasă';
 
   @override
-  String get lblDeleteAccount => "Delete Account";
+  String get lblDeleteAccount => 'Șterge contul';
 
   @override
-  String get lblUnderMaintenance => "Under Maintenance...";
+  String get lblUnderMaintenance => 'În mentenanță...';
 
   @override
-  String get lblCatchUpAfterAWhile => "Catch up after a while";
+  String get lblCatchUpAfterAWhile => 'Revino mai târziu';
 
   @override
-  String get lblId => "Id";
+  String get lblId => 'Id';
 
   @override
-  String get lblMethod => "Method";
+  String get lblMethod => 'Metodă';
 
   @override
-  String get lblStatus => "Status";
+  String get lblStatus => 'Status';
 
   @override
-  String get lblPending => "Pending";
+  String get lblPending => 'În așteptare';
 
   @override
-  String get confirmationRequestTxt => "Do you want to perform this Action?";
+  String get confirmationRequestTxt => 'Vrei să efectuezi această acțiune?';
 
   @override
-  String get lblDeleteAccountConformation =>
-      "Your account will be deleted permanently. Your Data will not be Restored Again.";
+  String get lblDeleteAccountConformation => 'Contul tău va fi șters permanent. Datele tale nu vor mai fi restaurate.';
 
   @override
-  String get lblAutoSliderStatus => "Auto Slider Status";
+  String get lblAutoSliderStatus => 'Status slider automat';
 
   @override
-  String get lblPickAddress => "Pick address";
+  String get lblPickAddress => 'Alege adresa';
 
   @override
-  String get lblUpdateDateAndTime => "Update Date and Time";
+  String get lblUpdateDateAndTime => 'Actualizează data și ora';
 
   @override
-  String get lblRecheck => "Recheck";
+  String get lblRecheck => 'Verifică din nou';
 
   @override
-  String get lblLoginAgain => "Please Login Again";
+  String get lblLoginAgain => 'Te rugăm să te autentifici din nou';
 
   @override
-  String get lblUpdate => "Update";
+  String get lblUpdate => 'Actualizează';
 
   @override
-  String get lblNewUpdate => "New Update";
+  String get lblNewUpdate => 'Actualizare nouă';
 
   @override
-  String get lblOptionalUpdateNotify => "Optional Update Notify";
+  String get lblOptionalUpdateNotify => 'Notificare actualizare opțională';
 
   @override
-  String get lblAnUpdateTo => "An Update to";
+  String get lblAnUpdateTo => 'O actualizare pentru';
 
   @override
-  String get lblIsAvailableWouldYouLike =>
-      "is available. Would you like to update?";
+  String get lblIsAvailableWouldYouLike => 'este disponibilă. Vrei să actualizezi?';
 
   @override
-  String get lblRegisterAsPartner => "Register as Partner";
+  String get lblRegisterAsPartner => 'Înregistrează-te ca partener';
 
   @override
-  String get lblSignInWithApple => "Sign in with Apple";
+  String get lblSignInWithApple => 'Autentificare cu Apple';
 
   @override
-  String get lblWaitingForProviderApproval => "Waiting for Provider Approval";
+  String get lblWaitingForProviderApproval => 'În așteptarea aprobării furnizorului';
 
   @override
-  String get lblFree => "Free";
+  String get lblFree => 'Gratuit';
 
   @override
-  String get lblAppleSignInNotAvailable =>
-      "Apple SignIn is not available for your device";
+  String get lblAppleSignInNotAvailable => 'Autentificarea cu Apple nu este disponibilă pentru dispozitivul tău';
 
   @override
-  String get lblTotalExtraCharges => "Total Extra Charges";
+  String get lblTotalExtraCharges => 'Taxe suplimentare totale';
 
   @override
-  String get lblWaitingForResponse => "Waiting for Response";
+  String get lblWaitingForResponse => 'În așteptarea răspunsului';
 
   @override
-  String get lblAll => "All";
+  String get lblAll => 'Toate';
 
   @override
-  String get noConversation => "No Conversation";
+  String get noConversation => 'Fără conversație';
 
   @override
-  String get noConversationSubTitle =>
-      "You didn't made any conversation yet. Please book a service to chat with a provider.";
+  String get noConversationSubTitle => 'Nu ai făcut nicio conversație încă. Te rugăm să rezervi un serviciu pentru a discuta cu un furnizor.';
 
   @override
-  String get noBookingSubTitle => "Looks like you haven't book your order yet";
+  String get noBookingSubTitle => 'Se pare că nu ai rezervat încă comanda';
 
   @override
-  String get myReviews => "My Reviews";
+  String get myReviews => 'Recenziile mele';
 
   @override
-  String get noCategoryFound => "No Category Found";
+  String get noCategoryFound => 'Nu s-a găsit nicio categorie';
 
   @override
-  String get noProviderFound => "No Provider Found";
+  String get noProviderFound => 'Nu s-a găsit niciun furnizor';
 
   @override
-  String get createServiceRequest => "Create Service";
+  String get createServiceRequest => 'Creează serviciu';
 
   @override
-  String get chooseImages => "Choose Images";
+  String get chooseImages => 'Alege imagini';
 
   @override
-  String get serviceDescription => "Service Description";
+  String get serviceDescription => 'Descrierea serviciului';
 
   @override
-  String get addNewService => "Add New Service";
+  String get addNewService => 'Adaugă serviciu nou';
 
   @override
-  String get newPostJobRequest => "Post New Job Request";
+  String get newPostJobRequest => 'Postează cerere de job nouă';
 
   @override
-  String get postJobTitle => "Post Job Title";
+  String get postJobTitle => 'Titlul jobului';
 
   @override
-  String get postJobDescription => "Post Job Description";
+  String get postJobDescription => 'Descrierea jobului';
 
   @override
-  String get services => "Services";
+  String get services => 'Servicii';
 
   @override
-  String get myPostJobList => "My Custom Job Request";
+  String get myPostJobList => 'Cererea mea personalizată de job';
 
   @override
-  String get requestNewJob => "Request New Job";
+  String get requestNewJob => 'Solicită job nou';
 
   @override
-  String get noNotifications => "No Notifications";
+  String get noNotifications => 'Fără notificări';
 
   @override
-  String get noNotificationsSubTitle =>
-      "We'll notify you once we have something for you";
+  String get noNotificationsSubTitle => 'Te vom notifica când avem ceva pentru tine';
 
   @override
-  String get noFavouriteSubTitle => "Your favourite services will appear here";
+  String get noFavouriteSubTitle => 'Serviciile tale favorite vor apărea aici';
 
   @override
-  String get termsConditionsAccept => "Please accept terms and conditions";
+  String get termsConditionsAccept => 'Te rugăm să accepți termenii și condițiile';
 
   @override
-  String get disclaimer => "Disclaimer";
+  String get disclaimer => 'Disclaimer';
 
   @override
-  String get disclaimerContent =>
-      "You will be asked for payment once your booking is completed.";
+  String get disclaimerContent => 'Vei fi solicitat pentru plată odată ce rezervarea ta este finalizată.';
 
   @override
-  String get inputMustBeNumberOrDigit => 'Input must be number or digit';
+  String get inputMustBeNumberOrDigit => 'Inputul trebuie să fie număr sau cifră';
 
   @override
-  String get requiredAfterCountryCode => 'required after country code';
+  String get requiredAfterCountryCode => 'obligatoriu după codul țării';
 
   @override
-  String get selectedOtherBookingTime =>
-      'Selected booking time is already passed. Please select another time.';
+  String get selectedOtherBookingTime => 'Timpul de rezervare selectat a trecut deja. Te rugăm să selectezi alt timp.';
 
   @override
-  String get myServices => 'My Services';
+  String get myServices => 'Serviciile mele';
 
   @override
-  String get doYouWantToAssign => 'Do you want to assign';
+  String get doYouWantToAssign => 'Vrei să atribui';
 
   @override
-  String get bidPrice => 'Bid Price';
+  String get bidPrice => 'Preț ofertă';
 
   @override
-  String get accept => 'Accept';
+  String get accept => 'Acceptă';
 
   @override
-  String get price => 'Price';
+  String get price => 'Preț';
 
   @override
-  String get remove => 'Remove';
+  String get remove => 'Elimină';
 
   @override
-  String get add => 'Add';
+  String get add => 'Adaugă';
 
   @override
-  String get save => 'Save';
+  String get save => 'Salvează';
 
   @override
-  String get createPostJobWithoutSelectService =>
-      'You can\'t create post job without selecting service';
+  String get createPostJobWithoutSelectService => 'Nu poți crea job fără să selectezi serviciul';
 
   @override
-  String get selectCategory => 'Select Category';
+  String get selectCategory => 'Selectează categorie';
 
   @override
-  String get pleaseAddImage => 'Please Add Image';
+  String get pleaseAddImage => 'Te rugăm să adaugi imagine';
 
   @override
-  String get selectedBookingTimeIsAlreadyPassed =>
-      'Selected booking time is already passed. Please select another time.';
+  String get selectedBookingTimeIsAlreadyPassed => 'Timpul de rezervare selectat a trecut deja. Te rugăm să selectezi alt timp.';
 
   @override
-  String get jobPrice => 'Job Price';
+  String get jobPrice => 'Preț job';
 
   @override
-  String get estimatedPrice => 'Estimated Price';
+  String get estimatedPrice => 'Preț estimat';
 
   @override
-  String get bidder => 'Bidder List';
+  String get bidder => 'Lista ofertanților';
 
   @override
-  String get assignedProvider => 'Assigned Provider';
+  String get assignedProvider => 'Furnizor atribuit';
 
   @override
-  String get myPostDetail => 'My Post Detail';
+  String get myPostDetail => 'Detaliile postării mele';
 
   @override
-  String get thankYou => 'Thank you!';
+  String get thankYou => 'Mulțumim!';
 
   @override
-  String get bookingConfirmedMsg => 'Your booking is confirmed.';
+  String get bookingConfirmedMsg => 'Rezervarea ta este confirmată.';
 
   @override
-  String get goToHome => 'Go to Home';
+  String get goToHome => 'Mergi la acasă';
 
   @override
-  String get goToReview => 'Go to Review';
+  String get goToReview => 'Mergi la recenzie';
 
   @override
-  String get noServiceAdded => 'No Service Added';
+  String get noServiceAdded => 'Niciun serviciu adăugat';
 
   @override
-  String get noPostJobFound => 'No Post Job Found';
+  String get noPostJobFound => 'Nu s-a găsit niciun job postat';
 
   @override
-  String get noPostJobFoundSubtitle =>
-      'When you post your job, every Provider will notified, and you can choose your desired Provider to get the job done.';
+  String get noPostJobFoundSubtitle => 'Când postezi jobul tău, fiecare furnizor va fi notificat și poți alege furnizorul dorit pentru a finaliza jobul.';
 
   @override
-  String get pleaseEnterValidOTP => 'Please enter Valid OTP';
+  String get pleaseEnterValidOTP => 'Te rugăm să introduci OTP valid';
 
   @override
-  String get confirmOTP => 'Confirm OTP';
+  String get confirmOTP => 'Confirmă OTP';
 
   @override
-  String get sendingOTP => 'Sending OTP';
+  String get sendingOTP => 'Trimitere OTP';
 
   @override
-  String get pleaseSelectDifferentSlotThenPrevious =>
-      'Please select different slot then previous';
+  String get pleaseSelectDifferentSlotThenPrevious => 'Te rugăm să selectezi alt interval decât cel anterior';
 
   @override
-  String get pleaseSelectTheSlotsFirst => 'Please select the slots first';
+  String get pleaseSelectTheSlotsFirst => 'Te rugăm să selectezi mai întâi intervalele';
 
   @override
-  String get editTimeSlotsBooking => 'Edit Time Slots Booking';
+  String get editTimeSlotsBooking => 'Editează rezervarea intervalelor de timp';
 
   @override
-  String get availableSlots => 'Available Slots';
+  String get availableSlots => 'Intervale disponibile';
 
   @override
-  String get noTimeSlots => 'No Time Slots';
+  String get noTimeSlots => 'Fără intervale de timp';
 
   @override
-  String get bookingDateAndSlot => 'Booking Date & Slot';
+  String get bookingDateAndSlot => 'Data și intervalul rezervării';
 
   @override
-  String get extraCharges => 'Extra Charges';
+  String get extraCharges => 'Taxe suplimentare';
 
   @override
-  String get chatCleared => 'Chat Cleared';
+  String get chatCleared => 'Chat șters';
 
   @override
-  String get clearChat => 'Clear chat';
+  String get clearChat => 'Șterge chat';
 
   @override
-  String get jobRequestSubtitle =>
-      "Didn't find your service? Don't worry, You can post your requirements.";
+  String get jobRequestSubtitle => 'Nu ai găsit serviciul tău? Nu-ți face griji, poți posta cerințele tale.';
 
   @override
-  String get verified => 'Verified';
+  String get verified => 'Verificat';
 
   @override
-  String get theEnteredCodeIsInvalidPleaseTryAgain =>
-      'The entered code is invalid, please try again';
+  String get theEnteredCodeIsInvalidPleaseTryAgain => 'Codul introdus este invalid, te rugăm să încerci din nou';
 
   @override
-  String get otpCodeIsSentToYourMobileNumber =>
-      'OTP Code is sent to your mobile number';
+  String get otpCodeIsSentToYourMobileNumber => 'Codul OTP este trimis pe numărul tău de mobil';
 
   @override
-  String get yourPaymentFailedPleaseTryAgain =>
-      'Your payment failed please try again';
+  String get yourPaymentFailedPleaseTryAgain => 'Plata ta a eșuat, te rugăm să încerci din nou';
 
   @override
-  String get yourPaymentHasBeenMadeSuccessfully =>
-      'Your payment has been made successfully';
+  String get yourPaymentHasBeenMadeSuccessfully => 'Plata ta a fost efectuată cu succes';
 
   @override
-  String get transactionFailed => 'Transaction Failed';
+  String get transactionFailed => 'Tranzacția a eșuat';
 
   @override
-  String get lblStep3 => "Step 3";
+  String get lblStep3 => 'Pasul 3';
 
   @override
-  String get lblAvailableOnTheseDays => "Available On These Days";
+  String get lblAvailableOnTheseDays => 'Disponibil în aceste zile';
 
   @override
-  String get internetNotAvailable => 'Your internet appears to be offline';
+  String get internetNotAvailable => 'Internetul tău pare să fie offline';
 
   @override
-  String get pleaseTryAgain => 'Please try again';
+  String get pleaseTryAgain => 'Te rugăm să încerci din nou';
 
   @override
-  String get somethingWentWrong => 'Something Went Wrong';
+  String get somethingWentWrong => 'Ceva a mers greșit';
 
   @override
-  String get postJob => 'Post Job';
+  String get postJob => 'Postează job';
 
   @override
-  String get package => 'Package';
+  String get package => 'Pachet';
 
   @override
-  String get frequentlyBoughtTogether => 'Frequently Bought Together';
+  String get frequentlyBoughtTogether => 'Cumpărate frecvent împreună';
 
   @override
-  String get endOn => 'Ends On';
+  String get endOn => 'Se termină pe';
 
   @override
-  String get buy => 'Buy';
+  String get buy => 'Cumpără';
 
   @override
-  String get includedServices => 'Included Services';
+  String get includedServices => 'Servicii incluse';
 
   @override
-  String get includedInThisPackage => 'Included in this Package';
+  String get includedInThisPackage => 'Inclus în acest pachet';
 
   @override
-  String get lblInvalidTransaction => 'Invalid Transaction';
+  String get lblInvalidTransaction => 'Tranzacție invalidă';
 
   @override
-  String get getTheseServiceWithThisPackage =>
-      'You will get these services with this package';
+  String get getTheseServiceWithThisPackage => 'Vei primi aceste servicii cu acest pachet';
 
   @override
-  String get lblNotValidUser => 'You are not a valid User';
+  String get lblNotValidUser => 'Nu ești un utilizator valid';
 
   @override
-  String get lblSkip => 'Skip';
+  String get lblSkip => 'Sari peste';
 
   @override
-  String get lblChangeCountry => 'Change Country';
+  String get lblChangeCountry => 'Schimbă țara';
 
   @override
-  String get lblTimeSlotNotAvailable => 'This Slot is not available';
+  String get lblTimeSlotNotAvailable => 'Acest interval nu este disponibil';
 
   @override
-  String get lblAdd => 'add';
+  String get lblAdd => 'adaugă';
 
   @override
-  String get lblThisService => 'this service';
+  String get lblThisService => 'acest serviciu';
 
   @override
-  String get lblYourCurrenciesNotSupport =>
-      'Your Currencies doesn\'t support CinetPay';
+  String get lblYourCurrenciesNotSupport => 'Monedele tale nu suportă CinetPay';
 
   @override
-  String get lblSignInFailed => 'Sign in failed';
+  String get lblSignInFailed => 'Autentificarea a eșuat';
 
   @override
-  String get lblUserCancelled => 'User cancelled';
+  String get lblUserCancelled => 'Utilizatorul a anulat';
 
   @override
-  String get lblTransactionCancelled => 'Transaction cancelled';
+  String get lblTransactionCancelled => 'Tranzacția a fost anulată';
 
   @override
-  String get lblExample => 'Example';
+  String get lblExample => 'Exemplu';
 
   @override
-  String get lblCheckOutWithCinetPay => 'Checkout with CinetPay';
+  String get lblCheckOutWithCinetPay => 'Finalizează cu CinetPay';
 
   @override
-  String get lblLocationPermissionDenied => 'Location permissions are denied.';
+  String get lblLocationPermissionDenied => 'Permisiunile de locație sunt refuzate.';
 
   @override
-  String get lblLocationPermissionDeniedPermanently =>
-      'Location permissions are permanently denied, we cannot request permissions.';
+  String get lblLocationPermissionDeniedPermanently => 'Permisiunile de locație sunt refuzate permanent, nu putem solicita permisiuni.';
 
   @override
-  String get lblEnableLocation =>
-      'Please make sure Location services are enabled.';
+  String get lblEnableLocation => 'Te rugăm să te asiguri că serviciile de locație sunt activate.';
 
   @override
-  String get lblNoUserFound => 'No User Found';
+  String get lblNoUserFound => 'Nu s-a găsit niciun utilizator';
 
   @override
-  String get lblUserNotCreated => 'User Not Created';
+  String get lblUserNotCreated => 'Utilizatorul nu a fost creat';
 
   @override
-  String get lblTokenExpired => 'Token Expired';
+  String get lblTokenExpired => 'Token expirat';
 
   @override
-  String get lblConfirmationForDeleteMsg =>
-      'Do you want to delete the message?';
+  String get lblConfirmationForDeleteMsg => 'Vrei să ștergi mesajul?';
 
   @override
-  String get favouriteProvider => 'Favourite Provider';
+  String get favouriteProvider => 'Furnizor favorit';
 
   @override
-  String get noProviderFoundMessage =>
-      'Your favourite providers will appear here';
+  String get noProviderFoundMessage => 'Furnizorii tăi favoriți vor apărea aici';
 
   @override
-  String get personalInfo => 'Personal Info';
+  String get personalInfo => 'Informații personale';
 
   @override
-  String get essentialSkills => 'Essential Skills';
+  String get essentialSkills => 'Abilități esențiale';
 
   @override
-  String get knownLanguages => 'Known Languages';
+  String get knownLanguages => 'Limbi cunoscute';
 
   @override
-  String get authorBy => 'Author By';
+  String get authorBy => 'Autor de';
 
   @override
-  String get views => 'Views';
+  String get views => 'Vizualizări';
 
   @override
-  String get blogs => 'Blogs';
+  String get blogs => 'Bloguri';
 
   @override
-  String get noBlogsFound => 'No Blogs Found';
+  String get noBlogsFound => 'Nu s-au găsit bloguri';
 
   @override
-  String get requestInvoice => 'Request Invoice';
+  String get requestInvoice => 'Solicită factură';
 
   @override
-  String get invoiceSubTitle =>
-      'Enter the email address where you wish to receive your invoice';
+  String get invoiceSubTitle => 'Introdu adresa de email unde dorești să primești factura';
 
   @override
-  String get sentInvoiceText =>
-      'Please check your email we have sent invoice on your email.';
+  String get sentInvoiceText => 'Te rugăm să verifici emailul, am trimis factura pe emailul tău.';
 
   @override
-  String get send => 'Send';
+  String get send => 'Trimite';
 
   @override
-  String get published => 'Published';
+  String get published => 'Publicat';
 
   @override
-  String get clearChatMessage => 'Do you want to clear this chat?';
+  String get clearChatMessage => 'Vrei să ștergi acest chat?';
 
   @override
-  String get deleteMessage => 'Do you want to delete?';
+  String get deleteMessage => 'Vrei să ștergi?';
 
   @override
-  String get accepted => 'Accepted';
+  String get accepted => 'Acceptat';
 
   @override
-  String get onGoing => 'On Going';
+  String get onGoing => 'În desfășurare';
 
   @override
-  String get inProgress => 'In Progress';
+  String get inProgress => 'În progres';
 
   @override
-  String get cancelled => 'Cancelled';
+  String get cancelled => 'Anulat';
 
   @override
-  String get rejected => 'Rejected';
+  String get rejected => 'Respins';
 
   @override
-  String get failed => 'Failed';
+  String get failed => 'Eșuat';
 
   @override
-  String get completed => 'Completed';
+  String get completed => 'Finalizat';
 
   @override
-  String get pendingApproval => 'Pending Approval';
+  String get pendingApproval => 'Aprobare în așteptare';
 
   @override
-  String get waiting => 'Waiting';
+  String get waiting => 'În așteptare';
 
   @override
-  String get paid => 'Paid';
+  String get paid => 'Plătit';
 
   @override
-  String get advancePaid => 'Advance Paid';
+  String get advancePaid => 'Plată în avans';
 
   @override
-  String get insufficientBalanceMessage =>
-      'You have an insufficient balance in your wallet. Please choose another method.';
+  String get insufficientBalanceMessage => 'Ai un sold insuficient în portofel. Te rugăm să alegi altă metodă.';
 
   @override
-  String get cinetPayNotSupportedMessage =>
-      "CinetPay isn't supported by your Currencies";
+  String get cinetPayNotSupportedMessage => 'CinetPay nu este suportat de monedele tale';
 
   @override
-  String get loading => 'Loading..';
+  String get loading => 'Se încarcă..';
 
   @override
-  String get walletBalance => 'Wallet Balance';
+  String get walletBalance => 'Sold portofel';
 
   @override
-  String get payAdvance => 'Pay Advance';
+  String get payAdvance => 'Plătește în avans';
 
   @override
-  String get advancePaymentMessage =>
-      'Make an advance payment to complete a booking';
+  String get advancePaymentMessage => 'Fă o plată în avans pentru a finaliza o rezervare';
 
   @override
-  String get advancePayAmount => 'Advance Amount';
+  String get advancePayAmount => 'Sumă în avans';
 
   @override
-  String get remainingAmount => 'Remaining Amount';
+  String get remainingAmount => 'Sumă rămasă';
 
   @override
-  String get advancePayment => 'Pay Advance';
+  String get advancePayment => 'Plătește în avans';
 
   @override
-  String get withExtraAndAdvanceCharge =>
-      'With Extra charge and Advance payment';
+  String get withExtraAndAdvanceCharge => 'Cu taxă suplimentară și plată în avans';
 
   @override
-  String get withExtraCharge => 'With Extra Charge';
+  String get withExtraCharge => 'Cu taxă suplimentară';
 
   @override
   String get min => 'min';
 
   @override
-  String get hour => 'hour';
+  String get hour => 'oră';
 
   @override
-  String get customerRatingMessage => 'Tell others what you think';
+  String get customerRatingMessage => 'Spune-le altora ce crezi';
 
   @override
-  String get paymentHistory => 'Payment History';
+  String get paymentHistory => 'Istoric plăți';
 
   @override
-  String get message => 'Message';
+  String get message => 'Mesaj';
 
   @override
-  String get wallet => 'Wallet';
+  String get wallet => 'Portofel';
 
   @override
-  String get payWithFlutterWave => 'Pay With Flutterwave';
+  String get payWithFlutterWave => 'Plătește cu Flutterwave';
 
   @override
-  String get goodMorning => 'Good Morning';
+  String get goodMorning => 'Bună dimineața';
 
   @override
-  String get goodAfternoon => 'Good Afternoon';
+  String get goodAfternoon => 'Bună ziua';
 
   @override
-  String get goodEvening => 'Good Evening';
+  String get goodEvening => 'Bună seara';
 
   @override
-  String get invalidURL => 'Invalid URL';
+  String get invalidURL => 'URL invalid';
 
   @override
-  String get use24HourFormat => 'Use 24-hour format?';
+  String get use24HourFormat => 'Folosești format de 24 de ore?';
 
   @override
   String get email => 'Email';
 
   @override
-  String get badRequest => 'Bad Request';
+  String get badRequest => 'Cerere greșită';
 
   @override
-  String get forbidden => 'Forbidden';
+  String get forbidden => 'Interzis';
 
   @override
-  String get pageNotFound => 'Page Not Found';
+  String get pageNotFound => 'Pagină negăsită';
 
   @override
-  String get tooManyRequests => 'Too Many Requests';
+  String get tooManyRequests => 'Prea multe cereri';
 
   @override
-  String get internalServerError => 'Internal Server Error';
+  String get internalServerError => 'Eroare internă a serverului';
 
   @override
-  String get badGateway => 'Bad Gateway';
+  String get badGateway => 'Gateway greșit';
 
   @override
-  String get serviceUnavailable => 'Service Unavailable';
+  String get serviceUnavailable => 'Serviciu indisponibil';
 
   @override
-  String get gatewayTimeout => 'Gateway Timeout';
+  String get gatewayTimeout => 'Gateway timeout';
 
   @override
-  String get pleaseWait => 'Please wait';
+  String get pleaseWait => 'Te rugăm să aștepți';
 
   @override
-  String get externalWallet => 'External Wallet';
+  String get externalWallet => 'Portofel extern';
 
   @override
-  String get userNotFound => 'User not found';
+  String get userNotFound => 'Utilizator negăsit';
 
   @override
-  String get requested => 'Requested';
+  String get requested => 'Solicitat';
 
   @override
-  String get assigned => 'Assigned';
+  String get assigned => 'Atribuit';
 
   @override
-  String get reload => 'Reload';
+  String get reload => 'Reîncarcă';
 
   @override
-  String get lblStripeTestCredential =>
-      'Testing Credential cannot pay more then 500';
+  String get lblStripeTestCredential => 'Credențialele de testare nu pot plăti mai mult de 500';
 
   @override
-  String get noDataFoundInFilter =>
-      'Choose the best filter criteria to get the best results';
+  String get noDataFoundInFilter => 'Alege cele mai bune criterii de filtrare pentru a obține cele mai bune rezultate';
 
   @override
-  String get addYourCountryCode => 'Add your country code';
+  String get addYourCountryCode => 'Adaugă codul țării tale';
 
   @override
-  String get help => 'Help';
+  String get help => 'Ajutor';
 
   @override
-  String get couponCantApplied => "This coupon can't be applied";
+  String get couponCantApplied => 'Acest cupon nu poate fi aplicat';
 
   @override
-  String get priceAmountValidationMessage =>
-      'Price amount should be grater than 0';
+  String get priceAmountValidationMessage => 'Suma prețului ar trebui să fie mai mare decât 0';
 
   @override
-  String get pleaseWaitWhileWeLoadChatDetails =>
-      "Please wait while we load chat details...";
+  String get pleaseWaitWhileWeLoadChatDetails => 'Te rugăm să aștepți în timp ce încărcăm detaliile chat-ului...';
 
   @override
-  String get isNotAvailableForChat => "is not available for chat";
+  String get isNotAvailableForChat => 'nu este disponibil pentru chat';
 
   @override
-  String get connectWithFirebaseForChat => "Connect with firebase for chat";
+  String get connectWithFirebaseForChat => 'Conectează-te cu firebase pentru chat';
 
   @override
-  String get closeApp => 'Close App';
+  String get closeApp => 'Închide aplicația';
 
   @override
-  String get providerAddedToFavourite => 'Provider added to Favourite list';
+  String get providerAddedToFavourite => 'Furnizor adăugat la lista de favorite';
 
   @override
-  String get providerRemovedFromFavourite =>
-      'Provider removed from Favourite list';
+  String get providerRemovedFromFavourite => 'Furnizor eliminat din lista de favorite';
 
   @override
-  String get provideValidCurrentPasswordMessage =>
-      'You must provide a valid current password';
+  String get provideValidCurrentPasswordMessage => 'Trebuie să furnizezi o parolă curentă validă';
 
   @override
-  String get copied => 'Copied';
+  String get copied => 'Copiat';
 
   @override
-  String get copyMessage => 'Copy Message';
+  String get copyMessage => 'Copiază mesajul';
 
   @override
-  String get messageDelete => 'Delete Message';
+  String get messageDelete => 'Șterge mesajul';
 
   @override
-  String get pleaseChooseAnyOnePayment =>
-      'Please choose any one payment method';
+  String get pleaseChooseAnyOnePayment => 'Te rugăm să alegi o metodă de plată';
 
   @override
-  String get myWallet => 'My Wallet';
+  String get myWallet => 'Portofelul meu';
 
   @override
-  String get balance => 'Balance';
+  String get balance => 'Sold';
 
   @override
-  String get topUpWallet => 'Top-up Wallet';
+  String get topUpWallet => 'Completează portofelul';
 
   @override
-  String get topUpAmountQuestion =>
-      'What amount would you prefer to top up with?';
+  String get topUpAmountQuestion => 'Ce sumă ai prefera să completezi?';
 
   @override
-  String get paymentMethod => 'Payment Method';
+  String get paymentMethod => 'Metodă de plată';
 
   @override
-  String get selectYourPaymentMethodToAddBalance =>
-      'Select your payment method to add balance';
+  String get selectYourPaymentMethodToAddBalance => 'Selectează metoda ta de plată pentru a adăuga sold';
 
   @override
-  String get proceedToTopUp => 'Proceed to top-up';
+  String get proceedToTopUp => 'Continuă să completezi';
 
   @override
-  String get serviceAddedToFavourite => 'Service added to Favourite list';
+  String get serviceAddedToFavourite => 'Serviciu adăugat la lista de favorite';
 
   @override
-  String get serviceRemovedFromFavourite =>
-      'Service removed from Favourite list';
+  String get serviceRemovedFromFavourite => 'Serviciu eliminat din lista de favorite';
 
   @override
-  String get firebaseRemoteCannotBe => 'Firebase remote cannot be connected';
+  String get firebaseRemoteCannotBe => 'Firebase remote nu poate fi conectat';
 
   @override
-  String get search => 'Search';
+  String get search => 'Caută';
 
   @override
-  String get close => 'Close';
+  String get close => 'Închide';
 
   @override
-  String get totalAmountShouldBeMoreThan => 'Total amount should be more than';
+  String get totalAmountShouldBeMoreThan => 'Suma totală ar trebui să fie mai mare decât';
 
   @override
-  String get totalAmountShouldBeLessThan => 'Total amount should be less than';
+  String get totalAmountShouldBeLessThan => 'Suma totală ar trebui să fie mai mică decât';
 
   @override
-  String get doYouWantToTopUpYourWallet =>
-      'Do you want to Top Up your wallet now?';
+  String get doYouWantToTopUpYourWallet => 'Vrei să completezi portofelul acum?';
 
   @override
-  String get chooseYourLocation => 'Choose your location';
+  String get chooseYourLocation => 'Alege locația ta';
 
   @override
-  String get connect => 'Connect';
+  String get connect => 'Conectează';
 
   @override
-  String get transactionId => 'Transaction ID';
+  String get transactionId => 'ID tranzacție';
 
   @override
-  String get at => 'at';
+  String get at => 'la';
 
   @override
-  String get appliedTaxes => 'Applied Taxes';
+  String get appliedTaxes => 'Taxe aplicate';
 
   @override
-  String get accessDeniedContactYourAdmin =>
-      'Access denied. Contact your administrator for assistance.';
+  String get accessDeniedContactYourAdmin => 'Acces refuzat. Contactează administratorul pentru asistență.';
 
   @override
-  String get yourWalletIsUpdated => 'Your wallet is updated!';
+  String get yourWalletIsUpdated => 'Portofelul tău este actualizat!';
 
   @override
-  String get by => 'by';
+  String get by => 'de';
 
   @override
-  String get noPaymentMethodFound => 'No Payment Method Found';
+  String get noPaymentMethodFound => 'Nu s-a găsit nicio metodă de plată';
 
   @override
-  String get theAmountShouldBeEntered => 'The amount should be entered';
+  String get theAmountShouldBeEntered => 'Suma ar trebui să fie introdusă';
 
   @override
-  String get walletHistory => 'Wallet History';
+  String get walletHistory => 'Istoric portofel';
 
   @override
   String get debit => 'Debit';
@@ -1430,786 +1388,746 @@ class LanguageRo extends BaseLanguage {
   String get credit => 'Credit';
 
   @override
-  String get youCannotApplyThisCoupon => 'You cannot apply this coupon';
+  String get youCannotApplyThisCoupon => 'Nu poți aplica acest cupon';
 
   @override
-  String get basedOn => 'Based on';
+  String get basedOn => 'Bazat pe';
 
   @override
-  String get serviceStatusPicMessage =>
-      'Please ensure you pick at least one Booking Status';
+  String get serviceStatusPicMessage => 'Te rugăm să selectezi cel puțin un status de rezervare';
 
   @override
-  String get clearFilter => 'Clear Filter';
+  String get clearFilter => 'Șterge filtrul';
 
   @override
-  String get bookingStatus => 'Booking Status';
+  String get bookingStatus => 'Status rezervare';
 
   @override
-  String get addOns => 'Add-ons';
+  String get addOns => 'Suplimente';
 
   @override
-  String get serviceAddOns => 'Service Add-ons';
+  String get serviceAddOns => 'Suplimente serviciu';
 
   @override
-  String get turnOn => 'Turn On';
+  String get turnOn => 'Activează';
 
   @override
-  String get turnOff => 'Turn Off';
+  String get turnOff => 'Dezactivează';
 
   @override
-  String get serviceVisitType => 'Service Visit Type';
+  String get serviceVisitType => 'Tip vizită serviciu';
 
   @override
-  String get thisServiceIsOnlineRemote =>
-      'This service will be completed Online/Remotely.';
+  String get thisServiceIsOnlineRemote => 'Acest serviciu va fi finalizat online/la distanță.';
 
   @override
-  String get deleteMessageForAddOnService =>
-      'Do you want to remove this Add-on Service?';
+  String get deleteMessageForAddOnService => 'Vrei să elimini acest serviciu suplimentar?';
 
   @override
-  String get confirmation => 'Confirmation!';
+  String get confirmation => 'Confirmare!';
 
   @override
-  String get pleaseNoteThatAllServiceMarkedCompleted =>
-      'Please Note That all service add-ons marked as completed!';
+  String get pleaseNoteThatAllServiceMarkedCompleted => 'Te rugăm să reții că toate suplimentele de servicii sunt marcate ca finalizate!';
 
   @override
-  String get writeHere => 'Write Here';
+  String get writeHere => 'Scrie aici';
 
   @override
-  String get isAvailableGoTo =>
-      'is available. Go to Play Store and Download the New Version of the App.';
+  String get isAvailableGoTo => 'este disponibil. Mergi la Play Store și descarcă noua versiune a aplicației.';
 
   @override
-  String get later => 'Later';
+  String get later => 'Mai târziu';
 
   @override
-  String get whyChooseMe => 'Why Choose Me?';
+  String get whyChooseMe => 'De ce să mă alegi?';
 
   @override
-  String get useThisCodeToGet => 'Use this code to get';
+  String get useThisCodeToGet => 'Folosește acest cod pentru a obține';
 
   @override
-  String get off => 'off';
+  String get off => 'oprit';
 
   @override
-  String get applied => 'Applied';
+  String get applied => 'Aplicat';
 
   @override
-  String get coupons => 'Coupons';
+  String get coupons => 'Cupoane';
 
   @override
-  String get handymanList => 'Handyman List';
+  String get handymanList => 'Lista meșterilor';
 
   @override
-  String get noHandymanFound => 'No Handyman Found';
+  String get noHandymanFound => 'Nu s-a găsit niciun meșter';
 
   @override
-  String get back => 'Back';
+  String get back => 'Înapoi';
 
   @override
-  String get team => 'Team';
+  String get team => 'Echipă';
 
   @override
-  String get whyChooseMeAs => 'Why Choose Me as Your Trusted Service Provider';
+  String get whyChooseMeAs => 'De ce să mă alegi ca furnizor de servicii de încredere';
 
   @override
-  String get reason => 'Reason';
+  String get reason => 'Motiv';
 
   @override
-  String get pleaseEnterAddressAnd =>
-      'Please Enter Address and Booking Date & Slot';
+  String get pleaseEnterAddressAnd => 'Te rugăm să introduci adresa și data și intervalul rezervării';
 
   @override
-  String get pleaseEnterYourAddress => 'Please Enter Your Address';
+  String get pleaseEnterYourAddress => 'Te rugăm să introduci adresa ta';
 
   @override
-  String get pleaseSelectBookingDate => 'Please Select Booking Date & Slot';
+  String get pleaseSelectBookingDate => 'Te rugăm să selectezi data și intervalul rezervării';
 
   @override
-  String get doYouWantTo => 'Do you want to remove this coupon?';
+  String get doYouWantTo => 'Vrei să elimini acest cupon?';
 
   @override
-  String get chooseDateTime => 'Choose Date & Time';
+  String get chooseDateTime => 'Alege data și ora';
 
   @override
-  String get airtelMoneyPayment => 'Airtel Money Payment';
+  String get airtelMoneyPayment => 'Plată Airtel Money';
 
   @override
-  String get recommendedForYou => 'Recommended for you';
+  String get recommendedForYou => 'Recomandat pentru tine';
 
   @override
-  String get paymentSuccess => 'Payment Success';
+  String get paymentSuccess => 'Plată reușită';
 
   @override
-  String get redirectingToBookings => 'Redirecting to bookings..';
+  String get redirectingToBookings => 'Redirecționare către rezervări..';
 
   @override
-  String get transactionIsInProcess => 'Transaction is in process...';
+  String get transactionIsInProcess => 'Tranzacția este în proces...';
 
   @override
-  String get pleaseCheckThePayment =>
-      'Please check the payment request is sent to your number';
+  String get pleaseCheckThePayment => 'Te rugăm să verifici că cererea de plată este trimisă pe numărul tău';
 
   @override
-  String get enterYourMsisdnHere => 'Enter your msisdn here';
+  String get enterYourMsisdnHere => 'Introdu msisdn-ul tău aici';
 
   @override
-  String get theTransactionIsStill =>
-      'The transaction is still processing and is in ambiguous state. Please do the transaction enquiry to fetch the transaction status.';
+  String get theTransactionIsStill => 'Tranzacția este încă în proces și se află într-o stare ambiguă. Te rugăm să faci interogarea tranzacției pentru a obține statusul tranzacției.';
 
   @override
-  String get transactionIsSuccessful => 'Transaction is successful';
+  String get transactionIsSuccessful => 'Tranzacția este reușită';
 
   @override
-  String get incorrectPinHasBeen => 'Incorrect Pin has been entered';
+  String get incorrectPinHasBeen => 'PIN-ul incorect a fost introdus';
 
   @override
-  String get theUserHasExceeded =>
-      'The User has exceeded their wallet allowed transaction limit';
+  String get theUserHasExceeded => 'Utilizatorul a depășit limita de tranzacție permisă pentru portofel';
 
   @override
-  String get theAmountUserIs =>
-      'The amount User is trying to transfer is less than the minimum amount allowed';
+  String get theAmountUserIs => 'Suma pe care utilizatorul încearcă să o transfere este mai mică decât suma minimă permisă';
 
   @override
-  String get userDidnTEnterThePin => "User didn't enter the pin";
+  String get userDidnTEnterThePin => 'Utilizatorul nu a introdus PIN-ul';
 
   @override
-  String get transactionInPendingState =>
-      'Transaction in pending state. Please check after sometime';
+  String get transactionInPendingState => 'Tranzacție în stare de așteptare. Te rugăm să verifici după un timp';
 
   @override
-  String get userWalletDoesNot =>
-      'User wallet does not have enough money to cover the payable amount';
+  String get userWalletDoesNot => 'Portofelul utilizatorului nu are suficienți bani pentru a acoperi suma de plată';
 
   @override
-  String get theTransactionWasRefused => 'The transaction was refused';
+  String get theTransactionWasRefused => 'Tranzacția a fost refuzată';
 
   @override
-  String get thisIsAGeneric =>
-      'This is a generic refusal that has several possible causes';
+  String get thisIsAGeneric => 'Aceasta este o refuzare generică care are mai multe cauze posibile';
 
   @override
-  String get payeeIsAlreadyInitiated =>
-      'Payee is already initiated for churn or barred or not registered on Airtel Money platform';
+  String get payeeIsAlreadyInitiated => 'Beneficiarul este deja inițiat pentru churn sau blocat sau nu este înregistrat pe platforma Airtel Money';
 
   @override
-  String get theTransactionWasTimed => 'The transaction was timed out.';
+  String get theTransactionWasTimed => 'Tranzacția a expirat.';
 
   @override
-  String get theTransactionWasNot => 'The transaction was not found.';
+  String get theTransactionWasNot => 'Tranzacția nu a fost găsită.';
 
   @override
-  String get xSignatureAndPayloadDid => 'x-signature and payload did not match';
+  String get xSignatureAndPayloadDid => 'x-signature și payload nu se potrivesc';
 
   @override
-  String get encryptionKeyHasBeen =>
-      'Encryption key has been fetched successfully';
+  String get encryptionKeyHasBeen => 'Cheia de criptare a fost obținută cu succes';
 
   @override
-  String get couldNotFetchEncryption => 'Could not fetch encryption key';
+  String get couldNotFetchEncryption => 'Nu s-a putut obține cheia de criptare';
 
   @override
-  String get transactionHasBeenExpired => 'Transaction has been expired';
+  String get transactionHasBeenExpired => 'Tranzacția a expirat';
 
   @override
-  String get ambiguous => 'Ambiguous';
+  String get ambiguous => 'Ambiguu';
 
   @override
-  String get success => 'Success';
+  String get success => 'Succes';
 
   @override
-  String get incorrectPin => 'Incorrect Pin';
+  String get incorrectPin => 'PIN incorect';
 
   @override
-  String get exceedsWithdrawalAmountLimitS =>
-      'Exceeds withdrawal amount limit(s) / Withdrawal amount limit exceeded';
+  String get exceedsWithdrawalAmountLimitS => 'Depășește limita de sumă de retragere / Limita de sumă de retragere depășită';
 
   @override
-  String get invalidAmount => 'Invalid Amount';
+  String get invalidAmount => 'Sumă invalidă';
 
   @override
-  String get transactionIdIsInvalid => 'Transaction ID is invalid';
+  String get transactionIdIsInvalid => 'ID-ul tranzacției este invalid';
 
   @override
-  String get inProcess => 'In process';
+  String get inProcess => 'În proces';
 
   @override
-  String get notEnoughBalance => 'Not enough balance';
+  String get notEnoughBalance => 'Sold insuficient';
 
   @override
-  String get refused => 'Refused';
+  String get refused => 'Refuzat';
 
   @override
-  String get doNotHonor => 'Do not honor';
+  String get doNotHonor => 'Nu onora';
 
   @override
-  String get transactionNotPermittedTo => 'Transaction not permitted to Payee';
+  String get transactionNotPermittedTo => 'Tranzacție nepermisă către beneficiar';
 
   @override
-  String get transactionTimedOut => 'Transaction Timed Out';
+  String get transactionTimedOut => 'Tranzacție expirată';
 
   @override
-  String get transactionNotFound => 'Transaction Not Found';
+  String get transactionNotFound => 'Tranzacție negăsită';
 
   @override
-  String get forBidden => 'Forbidden';
+  String get forBidden => 'Interzis';
 
   @override
-  String get successfullyFetchedEncryptionKey =>
-      'Successfully fetched Encryption Key';
+  String get successfullyFetchedEncryptionKey => 'Cheia de criptare a fost obținută cu succes';
 
   @override
-  String get errorWhileFetchingEncryption =>
-      'Error while fetching encryption key';
+  String get errorWhileFetchingEncryption => 'Eroare la obținerea cheii de criptare';
 
   @override
-  String get transactionExpired => 'Transaction Expired';
+  String get transactionExpired => 'Tranzacție expirată';
 
   @override
-  String get verifyEmail => 'Verify Email';
+  String get verifyEmail => 'Verifică email';
 
   @override
-  String get minRead => 'min read';
+  String get minRead => 'min citire';
 
   @override
-  String get loadingChats => 'Loading chats...';
+  String get loadingChats => 'Se încarcă chat-urile...';
 
   @override
-  String get monthly => 'Monthly';
+  String get monthly => 'Lunar';
 
   @override
-  String get noCouponsAvailableMsg =>
-      'No Coupons at the Moment. Keep Checking Back for Exclusive Offers!';
+  String get noCouponsAvailableMsg => 'Fără cupoane în acest moment. Continuă să verifici pentru oferte exclusive!';
 
   @override
-  String get refundPolicy => 'Refund Policy';
+  String get refundPolicy => 'Politica de rambursare';
 
   @override
-  String get chooseAnyOnePayment => 'Choose any one payment method first';
+  String get chooseAnyOnePayment => 'Alege mai întâi o metodă de plată';
 
   @override
-  String get january => 'January';
+  String get january => 'Ianuarie';
 
   @override
-  String get february => 'February';
+  String get february => 'Februarie';
 
   @override
-  String get march => 'March';
+  String get march => 'Martie';
 
   @override
-  String get april => 'April';
+  String get april => 'Aprilie';
 
   @override
-  String get may => 'May';
+  String get may => 'Mai';
 
   @override
-  String get june => 'June';
+  String get june => 'Iunie';
 
   @override
-  String get july => 'July';
+  String get july => 'Iulie';
 
   @override
   String get august => 'August';
 
   @override
-  String get september => 'September';
+  String get september => 'Septembrie';
 
   @override
-  String get october => 'October';
+  String get october => 'Octombrie';
 
   @override
-  String get november => 'November';
+  String get november => 'Noiembrie';
 
   @override
-  String get december => 'December';
+  String get december => 'Decembrie';
 
   @override
-  String get monthName => 'Month Name';
+  String get monthName => 'Nume lună';
 
   @override
-  String get mon => 'Mon';
+  String get mon => 'Lun';
 
   @override
-  String get tue => 'Tue';
+  String get tue => 'Mar';
 
   @override
-  String get wed => 'Wed';
+  String get wed => 'Mie';
 
   @override
-  String get thu => 'Thu';
+  String get thu => 'Joi';
 
   @override
-  String get fri => 'Fri';
+  String get fri => 'Vin';
 
   @override
-  String get sat => 'Sat';
+  String get sat => 'Sâm';
 
   @override
-  String get sun => 'Sun';
+  String get sun => 'Dum';
 
   @override
-  String get weekName => 'Week Name';
+  String get weekName => 'Nume săptămână';
 
   @override
-  String get removeThisFile => 'Remove This File';
+  String get removeThisFile => 'Elimină acest fișier';
 
   @override
-  String get areYouSureWantToRemoveThisFile =>
-      'Do you want to remove this file?';
+  String get areYouSureWantToRemoveThisFile => 'Vrei să elimini acest fișier?';
 
   @override
-  String get sendMessage => 'Send Message';
+  String get sendMessage => 'Trimite mesaj';
 
   @override
-  String get youAreNotConnectedWithChatServer => 'Connect to Chat Server';
+  String get youAreNotConnectedWithChatServer => 'Conectează-te la serverul de chat';
 
   @override
-  String get NotConnectedWithChatServerMessage =>
-      'You are not connected to the chat server. Tap the button below to connect and start chatting';
+  String get NotConnectedWithChatServerMessage => 'Nu ești conectat la serverul de chat. Apasă butonul de mai jos pentru a te conecta și a începe să chatezi';
 
   @override
-  String get sentYouAMessage => 'sent you a message';
+  String get sentYouAMessage => 'ți-a trimis un mesaj';
 
   @override
-  String get pushNotification => 'Push Notification';
+  String get pushNotification => 'Notificare push';
 
   @override
-  String get yourBooking => 'Your Booking';
+  String get yourBooking => 'Rezervarea ta';
 
   @override
-  String get featuredServices => 'Featured Services';
+  String get featuredServices => 'Servicii recomandate';
 
   @override
-  String get postYourRequestAnd =>
-      'Post your request, and we\'ll \ndo our best to fulfill it';
+  String get postYourRequestAnd => 'Postează cererea ta și vom face tot posibilul să o îndeplinim';
 
   @override
-  String get newRequest => 'New Request';
+  String get newRequest => 'Cerere nouă';
 
   @override
-  String get upcomingBooking => 'Upcoming Booking';
+  String get upcomingBooking => 'Rezervare viitoare';
 
   @override
-  String get theUserHasDenied =>
-      'The user has denied the use of speech recognition';
+  String get theUserHasDenied => 'Utilizatorul a refuzat utilizarea recunoașterii vocale';
 
   @override
-  String get helloGuest => 'Hello Guest';
+  String get helloGuest => 'Salut oaspete';
 
   @override
-  String get eGCleaningPlumberPest => 'e.g. cleaning, plumber, pest control';
+  String get eGCleaningPlumberPest => 'ex. curățenie, instalator, control dăunători';
 
   @override
-  String get ifYouDidnTFind =>
-      "If you didn't find our service, don't worry! You can easily post your request.";
+  String get ifYouDidnTFind => 'Dacă nu ai găsit serviciul nostru, nu-ți face griji! Poți posta cu ușurință cererea ta.';
 
   @override
-  String get popularServices => 'Popular Services';
+  String get popularServices => 'Servicii populare';
 
   @override
-  String get canTFindYourServices => "Can't find your services?";
+  String get canTFindYourServices => 'Nu-ți găsești serviciile?';
 
   @override
-  String get trackProviderLocation => 'Track Provider Location';
+  String get trackProviderLocation => 'Urmărește locația furnizorului';
 
   @override
-  String get trackHandymanLocation => 'Track Handyman Location';
+  String get trackHandymanLocation => 'Urmărește locația meșterului';
 
   @override
-  String get handymanLocation => 'Handyman Location';
+  String get handymanLocation => 'Locația meșterului';
 
   @override
-  String get providerLocation => 'Provider Location';
+  String get providerLocation => 'Locația furnizorului';
 
   @override
-  String get lastUpdatedAt => 'Last updated at:';
+  String get lastUpdatedAt => 'Ultima actualizare la:';
 
   @override
-  String get track => 'Track';
+  String get track => 'Urmărește';
 
   @override
-  String get handymanReached => 'Handyman Reached? Click to start';
+  String get handymanReached => 'Meșterul a ajuns? Apasă pentru a începe';
 
   @override
-  String get providerReached => 'Provider Reached? Click to start';
+  String get providerReached => 'Furnizorul a ajuns? Apasă pentru a începe';
 
   @override
-  String get addBank => "Add bank";
+  String get lblBankDetails => 'Detalii bancă';
 
   @override
-  String get bankList => "Bank List";
+  String get addBank => 'Adaugă bancă';
 
   @override
-  String get lbldefault => "Default";
+  String get bankList => 'Lista băncilor';
 
   @override
-  String get setAsDefault => "Set as default";
+  String get lbldefault => 'Implicit';
 
   @override
-  String get aadharNumber => "Aadhar Number";
+  String get setAsDefault => 'Setează ca implicit';
 
   @override
-  String get panNumber => "PAN Number";
+  String get aadharNumber => 'Număr Aadhar';
 
   @override
-  String get lblPleaseEnterAccountNumber => "Please Enter Account Number";
+  String get panNumber => 'Număr PAN';
 
   @override
-  String get lblAccountNumberMustContainOnlyDigits =>
-      "Account number must contain only digits";
+  String get lblPleaseEnterAccountNumber => 'Te rugăm să introduci numărul contului';
 
   @override
-  String get lblAccountNumberMustBetween11And16Digits =>
-      "Account number must be between 11 and 16 digits";
+  String get lblAccountNumberMustContainOnlyDigits => 'Numărul contului trebuie să conțină doar cifre';
 
   @override
-  String get noBankDataTitle => "No Bank Data Found";
+  String get lblAccountNumberMustBetween11And16Digits => 'Numărul contului trebuie să fie între 11 și 16 cifre';
 
   @override
-  String get noBankDataSubTitle => "You didn't add bank yet";
+  String get noBankDataTitle => 'Nu s-au găsit date bancare';
 
   @override
-  String get lblBankDetails => "Bank Details";
+  String get noBankDataSubTitle => 'Nu ai adăugat încă bancă';
 
   @override
-  String get active => 'Active';
+  String get active => 'Activ';
 
   @override
-  String get inactive => 'Inactive';
+  String get inactive => 'Inactiv';
 
   @override
-  String get deleteBankTitle => 'Do you want to delete this bank?';
+  String get deleteBankTitle => 'Vrei să ștergi această bancă?';
 
   @override
-  String get lblEdit => 'Edit';
+  String get lblEdit => 'Editează';
 
   @override
-  String get bankName => "Bank Name";
+  String get iFSCCode => 'Cod IFSC';
 
   @override
-  String get accountNumber => "Account number";
+  String get accountNumber => 'Număr cont';
 
   @override
-  String get iFSCCode => "IFSC code";
+  String get bankName => 'Nume bancă';
 
   @override
-  String get availableBalance => "Available Balance";
+  String get availableBalance => 'Sold disponibil';
 
   @override
-  String get withdraw => "Withdraw";
+  String get withdraw => 'Retrage';
 
   @override
-  String get successful => 'Successful';
+  String get successful => 'Reușit';
 
   @override
-  String get yourWithdrawalRequestHasBeenSuccessfullySubmitted =>
-      'Your withdrawal request has been successfully submitted.';
+  String get yourWithdrawalRequestHasBeenSuccessfullySubmitted => 'Cererea ta de retragere a fost trimisă cu succes.';
 
   @override
-  String get eg3000 => 'eg" 3000"';
+  String get eg3000 => 'ex. "3000"';
 
   @override
-  String get chooseBank => "Choose Bank";
+  String get chooseBank => 'Alege bancă';
 
   @override
-  String get egCentralNationalBank => 'eg" central national bank"';
+  String get egCentralNationalBank => 'ex. "banca centrală națională"';
 
   @override
-  String get topUp => "Top-up";
+  String get topUp => 'Completează';
 
   @override
-  String get pleaseAddLessThanOrEqualTo => "Please add less than or equal to";
+  String get pleaseAddLessThanOrEqualTo => 'Te rugăm să adaugi mai puțin sau egal cu';
 
   @override
-  String get lblEnterAmount => "Enter Amount";
+  String get lblEnterAmount => 'Introdu suma';
 
   @override
-  String get withdrawRequest => "Withdraw Request";
+  String get withdrawRequest => 'Cerere de retragere';
 
   @override
-  String get btnSave => 'Save';
+  String get btnSave => 'Salvează';
 
   @override
-  String get fullNameOnBankAccount => 'Full name on bank account';
+  String get fullNameOnBankAccount => 'Nume complet pe contul bancar';
 
   @override
-  String get packageIsExpired => 'Package is expired';
+  String get packageIsExpired => 'Pachetul a expirat';
 
   @override
-  String get bookPackage => 'Book Package';
+  String get bookPackage => 'Rezervă pachet';
 
   @override
-  String get packageDescription => 'Package Description';
+  String get packageDescription => 'Descrierea pachetului';
 
   @override
-  String get packagePrice => 'Package Price';
+  String get packagePrice => 'Prețul pachetului';
 
   @override
   String get online => 'Online';
 
   @override
-  String get noteAddressIsNot =>
-      'Note: Address is not required for remote services.';
+  String get noteAddressIsNot => 'Notă: Adresa nu este necesară pentru serviciile la distanță.';
 
   @override
-  String get wouldYouLikeTo =>
-      'Would you like to proceed and confirm this booking?';
+  String get wouldYouLikeTo => 'Vrei să continui și să confirmi această rezervare?';
 
   @override
-  String get packageName => 'Package Name';
+  String get packageName => 'Numele pachetului';
 
   @override
-  String get feeAppliesForCancellations =>
-      'fee applies for cancellations made within';
+  String get feeAppliesForCancellations => 'se aplică taxă pentru anulările făcute în termen de';
 
   @override
   String get a => 'A';
 
   @override
-  String get byConfirmingYouAgree => 'By confirming, you agree to our';
+  String get byConfirmingYouAgree => 'Prin confirmare, ești de acord cu';
 
   @override
-  String get and => 'and';
+  String get and => 'și';
 
   @override
-  String get areYouSureYou =>
-      'Are you sure you want to cancel? A cancellation fee may apply based on your service price';
+  String get areYouSureYou => 'Ești sigur că vrei să anulezi? Se poate aplica o taxă de anulare în funcție de prețul serviciului tău';
 
   @override
-  String get totalCancellationFee => 'Total cancellation fee';
+  String get totalCancellationFee => 'Taxa totală de anulare';
 
   @override
-  String get goBack => 'Go Back';
+  String get goBack => 'Înapoi';
 
   @override
-  String get bookingCancelled => 'Booking Cancelled';
+  String get bookingCancelled => 'Rezervare anulată';
 
   @override
-  String get yourBookingHasBeen =>
-      'Your booking has been successfully canceled. Applicable refund will be processed within 24 hours';
+  String get yourBookingHasBeen => 'Rezervarea ta a fost anulată cu succes. Rambursarea aplicabilă va fi procesată în termen de 24 de ore';
 
   @override
-  String get noteCheckYourBooking =>
-      'Note: Check your booking history for refund details';
+  String get noteCheckYourBooking => 'Notă: Verifică istoricul rezervărilor tale pentru detalii despre rambursare';
 
   @override
-  String get cancelledReason => 'Cancelled reason';
+  String get cancelledReason => 'Motiv anulare';
 
   @override
-  String get refundPaymentDetails => 'Refund Payment Details';
+  String get refundPaymentDetails => 'Detalii rambursare plată';
 
   @override
-  String get refundOf => 'Refund of';
+  String get refundOf => 'Rambursare de';
 
   @override
-  String get refundAmount => 'Refund Amount';
+  String get refundAmount => 'Sumă rambursare';
 
   @override
-  String get cancellationFee => 'Cancellation Fee';
+  String get cancellationFee => 'Taxă anulare';
 
   @override
-  String get advancedPayment => 'Advanced payment';
+  String get advancedPayment => 'Plată în avans';
 
   @override
-  String get hoursOfTheScheduled => 'hours of the scheduled service';
+  String get hoursOfTheScheduled => 'ore ale serviciului programat';
 
   @override
-  String get open => 'OPEN';
+  String get open => 'DESCHIS';
 
   @override
-  String get closed => 'CLOSED';
+  String get closed => 'ÎNCHIS';
 
   @override
-  String get createBy => 'Create by';
+  String get createBy => 'Creat de';
 
   @override
-  String get repliedBy => 'Replied by';
+  String get repliedBy => 'Răspuns de';
 
   @override
-  String get closedBy => 'Closed by';
+  String get closedBy => 'Închis de';
 
   @override
-  String get helpDesk => 'Help Desk';
+  String get helpDesk => 'Birou de ajutor';
 
   @override
-  String get addNew => 'Add New';
+  String get addNew => 'Adaugă nou';
 
   @override
-  String get queryYet => 'Query Yet';
+  String get queryYet => 'Întrebare încă';
 
   @override
-  String get toSubmitYourProblems =>
-      'To submit your problems simply press add button and explain your concern';
+  String get toSubmitYourProblems => 'Pentru a-ți trimite problemele, apasă pur și simplu butonul adaugă și explică-ți preocuparea';
 
   @override
-  String get noRecordsFoundFor => 'No records found for';
+  String get noRecordsFoundFor => 'Nu s-au găsit înregistrări pentru';
 
   @override
-  String get queries => 'queries.';
+  String get queries => 'întrebări.';
 
   @override
-  String get noActivityYet => 'No Activity Yet';
+  String get noActivityYet => 'Fără activitate încă';
 
   @override
-  String get noRecordsFound => 'No records found';
+  String get noRecordsFound => 'Nu s-au găsit înregistrări';
 
   @override
-  String get reply => 'Reply';
+  String get reply => 'Răspunde';
 
   @override
-  String get eGDuringTheService =>
-      'e.g. During the service, the furniture was accidentally damaged.';
+  String get eGDuringTheService => 'ex. În timpul serviciului, mobilierul a fost deteriorat accidental.';
 
   @override
-  String get doYouWantClosedThisQuery => 'Do you want closed this query';
+  String get doYouWantClosedThisQuery => 'Vrei să închizi această întrebare';
 
   @override
-  String get markAsClosed => 'Mark as Closed';
+  String get markAsClosed => 'Marchează ca închis';
 
   @override
-  String get youCanMarkThis =>
-      'You can mark this as closed if you are satisfied with our answer';
+  String get youCanMarkThis => 'Poți marca asta ca închis dacă ești mulțumit cu răspunsul nostru';
 
   @override
-  String get subject => 'Subject';
+  String get subject => 'Subiect';
 
   @override
-  String get eGDamagedFurniture => 'e.g. Damaged furniture';
+  String get eGDamagedFurniture => 'ex. Mobilier deteriorat';
 
   @override
-  String get closedOn => 'Closed on:';
+  String get closedOn => 'Închis pe:';
 
   @override
-  String get on => 'on';
+  String get on => 'pe';
 
   @override
-  String get showMessage => 'Show Message';
+  String get showMessage => 'Arată mesajul';
 
   @override
-  String get yesterday => 'Yesterday';
+  String get yesterday => 'Ieri';
 
   @override
-  String get chooseAction => 'Choose Action';
+  String get chooseAction => 'Alege acțiunea';
 
   @override
-  String get chooseImage => 'Choose Image';
+  String get chooseImage => 'Alege imagine';
 
   @override
-  String get noteYouCanUpload =>
-      'Note: You can upload image with \'jpg\', \'png\', \'jpeg\' extensions & you can select only one image';
+  String get noteYouCanUpload => 'Notă: Poți încărca imagine cu extensiile \'jpg\', \'png\', \'jpeg\' și poți selecta doar o imagine';
 
   @override
-  String get removeImage => 'Remove Image';
+  String get removeImage => 'Elimină imaginea';
 
   @override
-  String get advancedRefund => 'Advanced Refund';
+  String get advancedRefund => 'Rambursare în avans';
 
   @override
-  String get lblService => 'Service';
+  String get lblService => 'Serviciu';
 
   @override
-  String get dateRange => 'Date Range';
+  String get dateRange => 'Interval de date';
 
   @override
-  String get paymentType => 'Payment Type';
+  String get paymentType => 'Tip plată';
 
   @override
-  String get reset => 'Reset';
+  String get reset => 'Resetează';
 
   @override
-  String get noStatusFound => 'No Status Found';
+  String get noStatusFound => 'Nu s-a găsit status';
 
   @override
-  String get selectStartDateEndDate => 'Select start date & end date';
+  String get selectStartDateEndDate => 'Selectează data de început și data de sfârșit';
 
   @override
-  String get handymanNotFound => 'Handyman Not Found';
+  String get handymanNotFound => 'Meșter negăsit';
 
   @override
-  String get providerNotFound => 'Provider Not Found';
+  String get providerNotFound => 'Furnizor negăsit';
 
   @override
-  String get rateYourExperience => 'Rate Your Experience';
+  String get rateYourExperience => 'Evaluează experiența ta';
 
   @override
-  String get weValueYourFeedback =>
-      'We value your feedback! Please rate your recent experience with our service';
+  String get weValueYourFeedback => 'Prețuim feedback-ul tău! Te rugăm să evaluezi experiența ta recentă cu serviciul nostru';
 
   @override
-  String get viewStatus => 'View Status';
+  String get viewStatus => 'Vezi statusul';
 
   @override
-  String get paymentInfo => 'Payment Info';
+  String get paymentInfo => 'Informații plată';
 
   @override
-  String get mobile => 'Mobile:';
+  String get mobile => 'Mobil:';
 
   @override
-  String get to => 'to';
+  String get to => 'către';
 
   @override
-  String get chooseYourDateRange => 'Choose your Date Range';
+  String get chooseYourDateRange => 'Alege intervalul tău de date';
 
   @override
-  String get asHandyman => 'As Handyman';
+  String get asHandyman => 'Ca meșter';
 
   @override
-  String get passwordLengthShouldBe =>
-      'Password length should be 8 to 12 characters.';
+  String get passwordLengthShouldBe => 'Lungimea parolei ar trebui să fie de la 8 la 12 caractere.';
 
   @override
-  String get cash => "Cash";
+  String get cash => 'Numerar';
 
   @override
-  String get bank => "Bank";
+  String get bank => 'Bancă';
 
   @override
-  String get razorPay => "RazorPay";
+  String get razorPay => 'RazorPay';
 
   @override
-  String get payPal => "PayPal";
+  String get payPal => 'PayPal';
 
   @override
-  String get stripe => "Stripe";
+  String get stripe => 'Stripe';
 
   @override
-  String get payStack => "PayStack";
+  String get payStack => 'PayStack';
 
   @override
-  String get flutterWave => "FlutterWave";
+  String get flutterWave => 'FlutterWave';
 
   @override
-  String get paytm => "Paytm";
+  String get paytm => 'Paytm';
 
   @override
-  String get airtelMoney => "Airtel Money";
+  String get airtelMoney => 'Airtel Money';
 
   @override
-  String get cinet => "Cinet";
+  String get cinet => 'Cinet';
 
   @override
-  String get midtrans => "Midtrans";
+  String get midtrans => 'Midtrans';
 
   @override
-  String get sadadPayment => "Sadad";
+  String get sadadPayment => 'Sadad';
 
   @override
-  String get phonePe => "PhonePe";
+  String get phonePe => 'PhonePe';
 
   @override
-  String get inAppPurchase => "In-App Purchase";
+  String get inAppPurchase => 'Cumpărare în aplicație';
 
   @override
-  String get pix => "Pix";
+  String get pix => 'Pix';
 
   @override
-  String get chooseWithdrawalMethod => "Choose Withdrawal Method";
+  String get chooseWithdrawalMethod => 'Alege metoda de retragere';
 
   @override
-  String bookingCompleted(int count) =>
-      '$count Booking${count > 1 ? 's' : ''} Completed';
+  String bookingCompleted(int count) => '$count Rezervare${count > 1 ? 'ri' : ''} Finalizată${count > 1 ? 'e' : ''}';
 }
