@@ -90,7 +90,8 @@ class _NotificationScreenState extends State<NotificationScreen> {
             itemBuilder: (context, index) {
               NotificationData data = list[index];
 
-              return GestureDetector(
+              return NotificationWidget(
+                data: data,
                 onTap: () async {
                   if (data.data!.notificationType.validate().contains(WALLET)) {
                     if (appConfigurationStore.onlinePaymentStatus) {
@@ -122,7 +123,6 @@ class _NotificationScreenState extends State<NotificationScreen> {
                     //
                   }
                 },
-                child: NotificationWidget(data: data),
               );
             },
           );
