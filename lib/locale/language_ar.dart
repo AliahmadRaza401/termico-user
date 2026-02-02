@@ -397,6 +397,12 @@ class LanguageAr extends BaseLanguage {
   String get lblExpiryDate => "تاريخ الانتهاء :";
 
   @override
+  String get expiry => "انتهاء";
+
+  @override
+  String get days => "أيام";
+
+  @override
   String get lblRemoveCoupon => "إزالة القسيمة";
 
   @override

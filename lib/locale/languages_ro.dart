@@ -407,6 +407,12 @@ class LanguageRo extends BaseLanguage {
   String get lblExpiryDate => 'Data expirării:';
 
   @override
+  String get expiry => 'Expirare';
+
+  @override
+  String get days => 'zile';
+
+  @override
   String get lblRemoveCoupon => 'Elimină cuponul';
 
   @override

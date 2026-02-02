@@ -397,6 +397,12 @@ class LanguageFr extends BaseLanguage {
   String get lblExpiryDate => "Date d'expiration :";
 
   @override
+  String get expiry => "Expiration";
+
+  @override
+  String get days => "jours";
+
+  @override
   String get lblRemoveCoupon => "Supprimer le coupon";
 
   @override

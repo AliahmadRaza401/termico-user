@@ -114,6 +114,12 @@ class _MyPostDetailScreenState extends State<MyPostDetailScreen> {
               detailTextStyle: primaryTextStyle(),
               isReadMore: true,
             ),
+          if (data.requestType.validate().isNotEmpty)
+            titleWidget(
+              title: 'Request Type',
+              detail: data.requestType.validate(),
+              detailTextStyle: boldTextStyle(size: 12),
+            ),
           Text(
             data.status.validate() == JOB_REQUEST_STATUS_ASSIGNED
                 ? language.jobPrice

@@ -49,6 +49,8 @@ class PostJobData {
   double? latitude;
   double? longitude;
   String? address;
+  String? expiryDays;
+  String? requestType;
 
   PostJobData({
     this.id,
@@ -66,6 +68,8 @@ class PostJobData {
     this.latitude,
     this.longitude,
     this.address,
+    this.expiryDays,
+    this.requestType,
   });
 
   PostJobData.fromJson(dynamic json) {
@@ -88,6 +92,8 @@ class PostJobData {
         ? double.tryParse(json['longitude'].toString())
         : null;
     address = json['address'];
+    expiryDays = json['expiry_days']?.toString();
+    requestType = json['request_type']?.toString();
 
     createdAt = json['created_at'];
     if (json['service'] != null) {
@@ -114,6 +120,8 @@ class PostJobData {
     map['latitude'] = latitude;
     map['longitude'] = longitude;
     map['address'] = address;
+    map['expiry_days'] = expiryDays;
+    map['request_type'] = requestType;
 
     map['can_bid'] = canBid;
     if (service != null) {

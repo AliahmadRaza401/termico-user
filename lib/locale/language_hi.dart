@@ -398,6 +398,12 @@ class LanguageHi extends BaseLanguage {
   String get lblExpiryDate => "समाप्ति तिथि :";
 
   @override
+  String get expiry => "समाप्ति";
+
+  @override
+  String get days => "दिन";
+
+  @override
   String get lblRemoveCoupon => "कूपन निकालें";
 
   @override

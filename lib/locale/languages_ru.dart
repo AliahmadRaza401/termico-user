@@ -396,6 +396,12 @@ class LanguageRu extends BaseLanguage {
   String get lblExpiryDate => 'Срок действия:';
 
   @override
+  String get expiry => 'Срок действия';
+
+  @override
+  String get days => 'дней';
+
+  @override
   String get lblRemoveCoupon => 'Удалить купон';
 
   @override

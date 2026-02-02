@@ -396,6 +396,12 @@ class LanguageDe extends BaseLanguage {
   String get lblExpiryDate => "Verfallsdatum :";
 
   @override
+  String get expiry => "Ablauf";
+
+  @override
+  String get days => "Tage";
+
+  @override
   String get lblRemoveCoupon => "Gutschein entfernen.";
 
   @override

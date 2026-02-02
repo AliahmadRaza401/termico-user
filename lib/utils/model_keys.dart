@@ -134,6 +134,8 @@ class PostJob {
   static String providerId = 'provider_id';
   static String latitude = 'latitude';
   static String longitude = 'longitude';
+  static String expiryDays = 'expiry_days';
+  static String requestType = 'request_type';
 }
 
 class PackageKey {

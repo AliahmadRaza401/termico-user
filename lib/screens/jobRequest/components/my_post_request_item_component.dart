@@ -2,6 +2,7 @@ import 'package:booking_system_flutter/component/cached_image_widget.dart';
 import 'package:booking_system_flutter/component/price_widget.dart';
 import 'package:booking_system_flutter/model/get_my_post_job_list_response.dart';
 import 'package:booking_system_flutter/screens/jobRequest/my_post_detail_screen.dart';
+import 'package:booking_system_flutter/utils/colors.dart';
 import 'package:booking_system_flutter/utils/common.dart';
 import 'package:booking_system_flutter/utils/constant.dart';
 import 'package:booking_system_flutter/utils/string_extensions.dart';
@@ -47,6 +48,21 @@ class _MyPostRequestItemComponentState extends State<MyPostRequestItemComponent>
     });
   }
 
+  bool isExpired() {
+    if (widget.data.expiryDays.validate().isEmpty || widget.data.createdAt.validate().isEmpty) {
+      return false;
+    }
+    
+    try {
+      int expiryDays = int.parse(widget.data.expiryDays.validate());
+      DateTime createdAt = DateTime.parse(widget.data.createdAt.validate());
+      DateTime expiryDate = createdAt.add(Duration(days: expiryDays));
+      return DateTime.now().isAfter(expiryDate);
+    } catch (e) {
+      return false;
+    }
+  }
+
   @override
   void setState(fn) {
     if (mounted) super.setState(fn);
@@ -54,6 +70,7 @@ class _MyPostRequestItemComponentState extends State<MyPostRequestItemComponent>
 
   @override
   Widget build(BuildContext context) {
+    bool expired = isExpired();
     return GestureDetector(
       onTap: () {
         MyPostDetailScreen(
@@ -86,6 +103,19 @@ class _MyPostRequestItemComponentState extends State<MyPostRequestItemComponent>
                 Row(
                   children: [
                     Text(widget.data.title.validate(), style: boldTextStyle(), maxLines: 2, overflow: TextOverflow.ellipsis).expand(),
+                    if (expired)
+                      Container(
+                        padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: cancelled.withValues(alpha:0.1),
+                          borderRadius: radius(8),
+                        ),
+                        child: Text(
+                          'Expired',
+                          style: boldTextStyle(color: cancelled, size: 12),
+                        ),
+                      ),
+                    if (expired) 4.width,
                     Container(
                       padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                       decoration: BoxDecoration(
@@ -100,6 +130,14 @@ class _MyPostRequestItemComponentState extends State<MyPostRequestItemComponent>
                   ],
                 ),
                 4.height,
+                if (widget.data.requestType.validate().isNotEmpty)
+                  Padding(
+                    padding: EdgeInsets.only(bottom: 4),
+                    child: Text(
+                      'Request Type: ${widget.data.requestType.validate()}',
+                      style: secondaryTextStyle(size: 12),
+                    ),
+                  ),
                 PriceWidget(
                   price: widget.data.status.validate() == JOB_REQUEST_STATUS_ASSIGNED ? widget.data.jobPrice.validate() : widget.data.price.validate(),
                   isHourlyService: false,
@@ -107,6 +145,14 @@ class _MyPostRequestItemComponentState extends State<MyPostRequestItemComponent>
                   isFreeService: false,
                   size: 14,
                 ),
+                if (widget.data.expiryDays.validate().isNotEmpty)
+                  Padding(
+                    padding: EdgeInsets.only(top: 4),
+                    child: Text(
+                      '${language.expiry}: ${widget.data.expiryDays} ${language.days}',
+                      style: secondaryTextStyle(size: 12),
+                    ),
+                  ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

@@ -265,6 +265,10 @@ abstract class BaseLanguage {
 
   String get lblExpiryDate;
 
+  String get expiry;
+
+  String get days;
+
   String get lblRemoveCoupon;
 
   String get lblNoCouponsAvailable;

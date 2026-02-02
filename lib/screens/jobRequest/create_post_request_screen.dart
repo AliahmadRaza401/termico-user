@@ -40,6 +40,7 @@ class _CreatePostRequestScreenState extends State<CreatePostRequestScreen> {
   TextEditingController descriptionCont = TextEditingController();
   TextEditingController priceCont = TextEditingController();
   TextEditingController addressCont = TextEditingController();
+  TextEditingController expiryDaysCont = TextEditingController();
 
   FocusNode descriptionFocus = FocusNode();
   FocusNode priceFocus = FocusNode();
@@ -52,6 +53,7 @@ class _CreatePostRequestScreenState extends State<CreatePostRequestScreen> {
   List<XFile> imageFiles = [];
   List<CategoryData> categoryList = [];
   CategoryData? selectedCategory;
+  String? selectedRequestType;
   
   // Local loading state for save button
   bool isSaving = false;
@@ -160,7 +162,13 @@ class _CreatePostRequestScreenState extends State<CreatePostRequestScreen> {
       PostJob.latitude: appStore.latitude,
       PostJob.longitude: appStore.longitude,
       CommonKeys.address: addressCont.text.validate(),
+      PostJob.requestType: selectedRequestType.validate(),
     };
+    
+    // Add expiry_days if provided (optional field)
+    if (expiryDaysCont.text.trim().isNotEmpty) {
+      request[PostJob.expiryDays] = expiryDaysCont.text.trim();
+    }
     
     log('createPostJobClick: Post job request data: $request');
     log('createPostJobClick: Calling savePostJob API');
@@ -555,6 +563,57 @@ class _CreatePostRequestScreenState extends State<CreatePostRequestScreen> {
                                 ),
                               ).flexible(),
                             ],
+                          ),
+                          16.height,
+                          AppTextField(
+                            controller: expiryDaysCont,
+                            textFieldType: TextFieldType.PHONE,
+                            decoration: inputDecoration(
+                              context,
+                              labelText: 'Expiry Days (Optional)',
+                            ),
+                            keyboardType: TextInputType.number,
+                            validator: (s) {
+                              if (s != null && s.isNotEmpty) {
+                                if (int.tryParse(s) == null || int.parse(s) <= 0) {
+                                  return 'Please enter a valid number';
+                                }
+                              }
+                              return null;
+                            },
+                          ),
+                          16.height,
+                          DropdownButtonFormField<String>(
+                            decoration: inputDecoration(
+                              context,
+                              labelText: 'Type',
+                            ),
+                            hint: Text(
+                              'Select Type',
+                              style: secondaryTextStyle(),
+                            ),
+                            value: selectedRequestType,
+                            dropdownColor: context.scaffoldBackgroundColor,
+                            items: <String>['Home', 'Apartment']
+                                .map((String value) {
+                              return DropdownMenuItem<String>(
+                                value: value,
+                                child: Text(
+                                  value,
+                                  style: primaryTextStyle(),
+                                ),
+                              );
+                            }).toList(),
+                            validator: (value) {
+                              if (value == null || value.isEmpty) {
+                                return language.requiredText;
+                              }
+                              return null;
+                            },
+                            onChanged: (String? value) async {
+                              selectedRequestType = value;
+                              setState(() {});
+                            },
                           ),
                           16.height,
                           DropdownButtonFormField<CategoryData>(
